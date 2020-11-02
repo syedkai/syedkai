@@ -1,6 +1,6 @@
 ![](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2019-2020/workflows/build-and-test/badge.svg)
   
-# SE-CLOUD-2019-2020
+# SE-CLOUD-2020-2021
 Welcome to *se-dystsys-2018-2019-softwareengineering* (Software Engineering and Distributed Systems) private repository hosted by GitHub Classroom.
 
 ## Video Tutorials
