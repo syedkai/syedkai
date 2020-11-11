@@ -15,3 +15,16 @@ Following short video shows how to do this:
 https://www.youtube.com/watch?v=j7XYvYwsW4g&t=83s
 
 
+### Download Link Visual Studio Community 2019
+
+#If you are a Windows User please download the installer from the following link:
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
+
+#For you are Mac User currently Visual Studio for Mac is also available. Please download the installer from the following link:
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio-mac/?sku=communitymac&rel=16
+
+NB: If your download does not begin, "click here to retry" option on the following pages from your browse
+
+### Up and Running with GitHub and Visual Studio 2019
+
+https://www.youtube.com/watch?v=csgO95sbSfA
