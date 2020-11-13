@@ -6,3 +6,5 @@ public class Class1
 	{
 	}
 }
+saasf
+	afas
