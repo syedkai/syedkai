@@ -20,8 +20,6 @@ namespace HelloWorldVS
 
             Console.WriteLine(res);
 
-            Console.WriteLine("Inside the function");
-
             Console.WriteLine("Press any key to exit.");
             Console.ReadLine();
 
