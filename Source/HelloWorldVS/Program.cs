@@ -19,7 +19,7 @@ namespace HelloWorldVS
             var res3 = bCalc.Div(221, 42343);
 
             Console.WriteLine(res);
-
+            Console.WriteLine("-------------------------------------");
             Console.WriteLine("Press any key to exit.");
             Console.ReadLine();
         }
