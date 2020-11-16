@@ -1,27 +1,13 @@
 ﻿
-using CalculatorLib;
 using System;
 
-namespace HelloWorldVS
+namespace ConsoleApp1
 {
     class Program
     {
-        /// <summary>
-        /// Calculator demo.
-        /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            BetterCalculator bCalc = new BetterCalculator();
-
-            int res = bCalc.Add(221, 42343);
-            res = bCalc.Mul(221, 42343);
-            var res3 = bCalc.Div(221, 42343);
-
-            Console.WriteLine(res);
-            Console.WriteLine("-------------------------------------");
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadLine();
+            Console.WriteLine("Hi I'm Mukit testing VS Code 2019  !");
         }
     }
 }
