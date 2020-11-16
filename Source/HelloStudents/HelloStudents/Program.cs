@@ -9,7 +9,7 @@ namespace HelloStudents
         {
             Console.WriteLine("Hello World!");
 
-            MyAlgorithm alg = new MyAlgorithm();
+           /* MyAlgorithm alg = new MyAlgorithm();
 
             for (int i = 0; i < 100; i++)
             {
@@ -21,7 +21,7 @@ namespace HelloStudents
             }
 
             Console.WriteLine("Press any key do exit...");
-            Console.ReadLine();
+            Console.ReadLine();*/
         }
     }
 }
