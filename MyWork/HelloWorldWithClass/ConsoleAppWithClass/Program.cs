@@ -41,7 +41,7 @@ namespace ConsoleAppWithClass
 
             System.Threading.Thread.Sleep(300);
 
-            Console.WriteLine($"Sie sind {user.Age} Jahre alt.");
+            Console.WriteLine(user.AgeMessage());
 
         }
     }
