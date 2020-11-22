@@ -7,19 +7,12 @@ namespace HelloStudents
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World From Console!\n");
+            Console.Title = "Changed file";
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WindowHeight = 20;
 
-            MyAlgorithm alg = new MyAlgorithm();
-
-            for (int i = 0; i < 100; i++)
-            {
-                double result = alg.Calculate(i);
-
-                Console.WriteLine($"Hello Students from Windows! Iteration: {i} generated the result = {result}");
-
-                Thread.Sleep(500);
-            }
-
+            Console.WriteLine("After few changes!");
             Console.WriteLine("Press any key do exit...");
             Console.ReadLine();
         }
