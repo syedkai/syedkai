@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApplication
+namespace MyCoolLibrary
 {
     /* private internal public */ 
-    public class MyClass
+    public class MyApi
     {
         public static double GetLength(string input)
         {
@@ -16,7 +16,7 @@ namespace MyApplication
 
         public double Divide(int a, int b)
         {
-            return a / b;
+            return (double)a / (double)b;
         }
 
     }

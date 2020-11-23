@@ -1,4 +1,5 @@
-﻿using MyApplication;
+﻿using MyAnotherCoolLibrary;
+using MyCoolLibrary;
 using System;
 using System.Threading.Tasks;
 
@@ -16,25 +17,74 @@ namespace Lesson3
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello lesson3! Deep dive in .NET 5.0");
-           
+
             // Run sample.
             //await LoopSample();
 
-            RunClassSample();
+            // Show how to tun the static method in the class.
+            //await RunClassStaticSampleAsync();
+
+            await RunClassInstanceSampleAsync();
 
             Console.WriteLine("Press ay key to exit...");
             Console.ReadLine();
         }
 
-        private static void RunClassSample()
+        private static Task RunClassStaticSampleAsync()
         {
             Console.WriteLine("Please, please enter some text and I will calulate the lenght.");
 
             var txt = Console.ReadLine();
 
-            var len = MyClass.GetLength(txt);
+            var len = MyApi.GetLength(txt);
 
             Console.WriteLine($"The length of the text is: {len}");
+            
+            return Task.CompletedTask;
+        }
+
+        private static Task RunClassInstanceSampleAsync()
+        {
+          
+            while (true)
+            {
+                Console.WriteLine("Please, please arg 1:");
+                var arg1 = Console.ReadLine();
+
+                if (arg1 == "exit")
+                    break;
+
+                Console.WriteLine("Please, please arg 2:");
+                var arg2 = Console.ReadLine();
+
+                if (arg2 == "exit")
+                    break;
+
+             
+                try
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+
+                    MyApi apiInstance = new MyApi();
+
+                    double res = apiInstance.Divide(int.Parse(arg1), int.Parse(arg2));
+
+                    Console.WriteLine($"Result of {arg1}/{arg2} = {res}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Your input is not the best. Pls. try again :)");
+                }
+                finally
+                {
+                    Console.ResetColor();
+                }
+            }
+        
+            
+         
+
+            return Task.CompletedTask;
         }
 
         /// <summary>

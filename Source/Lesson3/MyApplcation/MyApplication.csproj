@@ -9,4 +9,9 @@
 
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyAnotherCoolLibrary\MyAnotherCoolLibrary.csproj" />
+    <ProjectReference Include="..\MyCoolLibrary\MyCoolLibrary.csproj" />
+  </ItemGroup>
+
 </Project>
