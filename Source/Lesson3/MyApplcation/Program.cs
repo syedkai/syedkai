@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyApplication;
+using System;
 using System.Threading.Tasks;
 
 namespace Lesson3
@@ -15,7 +16,33 @@ namespace Lesson3
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello lesson3! Deep dive in .NET 5.0");
+           
+            // Run sample.
+            //await LoopSample();
 
+            RunClassSample();
+
+            Console.WriteLine("Press ay key to exit...");
+            Console.ReadLine();
+        }
+
+        private static void RunClassSample()
+        {
+            Console.WriteLine("Please, please enter some text and I will calulate the lenght.");
+
+            var txt = Console.ReadLine();
+
+            var len = MyClass.GetLength(txt);
+
+            Console.WriteLine($"The length of the text is: {len}");
+        }
+
+        /// <summary>
+        /// Looping sample with task.delay.
+        /// </summary>
+        /// <returns>N.a.</returns>
+        private static async Task LoopSample()
+        {
             int n = 100;
 
             for (int i = 0; i < n; i++)
@@ -24,9 +51,6 @@ namespace Lesson3
 
                 await Task.Delay(500);
             }
-
-            Console.WriteLine("Press ay key to exit...");
-            Console.ReadLine();
         }
 
 
