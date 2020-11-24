@@ -1,4 +1,5 @@
 ﻿using System;
+using ProjectLib.Entities;
 
 namespace Project1
 {
@@ -7,6 +8,7 @@ namespace Project1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            ProjectUser user = new ProjectUser();
         }
     }
 }
