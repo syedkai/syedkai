@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloWorldWithCLI
+namespace MyNewProject
 {
     class Program
     {
@@ -8,5 +8,14 @@ namespace HelloWorldWithCLI
         {
             Console.WriteLine("Hello World!");
         }
+
     }
+}
+public class GetMyName
+{
+    public void GetMyName()
+    { 
+        Console.WriteLine("I am Mou Saha");
+    }
+
 }

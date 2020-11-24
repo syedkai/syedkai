@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloWorldWithCLI
+namespace exercise_2
 {
     class Program
     {
