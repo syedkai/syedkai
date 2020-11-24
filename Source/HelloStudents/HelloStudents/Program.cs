@@ -11,9 +11,11 @@ namespace HelloStudents
 
            /* MyAlgorithm alg = new MyAlgorithm();
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10; i++)
             {
                 double result = alg.Calculate(i);
+
+                Console.WriteLine("Haritha Test \n changes");
 
                 Console.WriteLine($"Hello Students from Windows! Iteration: {i} generated the result = {result}");
 
