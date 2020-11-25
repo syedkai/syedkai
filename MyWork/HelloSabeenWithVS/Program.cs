@@ -8,7 +8,7 @@ namespace HelloSabeenWithVS
         {
             int radius = 34;
             Console.WriteLine(Math.PI * radius);
-            Console.WriteLine("Sabeen's first application with Visual Studio");
+            Console.WriteLine("Sabeen's first application with Visual Studio!");
         }
     }
 }
