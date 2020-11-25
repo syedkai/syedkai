@@ -1,0 +1,16 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\bin\Debug\net5.0\HelloSabeenWithCli.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\bin\Debug\net5.0\HelloSabeenWithCli.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\bin\Debug\net5.0\HelloSabeenWithCli.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\bin\Debug\net5.0\HelloSabeenWithCli.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\bin\Debug\net5.0\HelloSabeenWithCli.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\bin\Debug\net5.0\ref\HelloSabeenWithCli.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\bin\Debug\net5.0\HelloSabeenWithCli.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\ref\HelloSabeenWithCli.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithCli\obj\Debug\net5.0\HelloSabeenWithCli.genruntimeconfig.cache
