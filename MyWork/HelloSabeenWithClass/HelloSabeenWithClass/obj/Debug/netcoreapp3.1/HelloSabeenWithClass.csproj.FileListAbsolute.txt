@@ -1,0 +1,13 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\bin\Debug\netcoreapp3.1\HelloSabeenWithClass.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\bin\Debug\netcoreapp3.1\HelloSabeenWithClass.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\bin\Debug\netcoreapp3.1\HelloSabeenWithClass.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\bin\Debug\netcoreapp3.1\HelloSabeenWithClass.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\bin\Debug\netcoreapp3.1\HelloSabeenWithClass.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\bin\Debug\netcoreapp3.1\HelloSabeenWithClass.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\obj\Debug\netcoreapp3.1\HelloSabeenWithClass.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\obj\Debug\netcoreapp3.1\HelloSabeenWithClass.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\obj\Debug\netcoreapp3.1\HelloSabeenWithClass.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\obj\Debug\netcoreapp3.1\HelloSabeenWithClass.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\obj\Debug\netcoreapp3.1\HelloSabeenWithClass.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\obj\Debug\netcoreapp3.1\HelloSabeenWithClass.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Exercise4\HelloSabeenWithClass\obj\Debug\netcoreapp3.1\HelloSabeenWithClass.genruntimeconfig.cache
