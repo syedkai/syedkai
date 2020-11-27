@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace exercise_2
+namespace FirstApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hey! This is my first program!");
         }
     }
 }
