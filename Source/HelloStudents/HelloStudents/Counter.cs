@@ -13,7 +13,7 @@ namespace HelloStudents
         {
             for (int i = 0; i < 50; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"       {i}");
                 Thread.Sleep(250);
             }
         }
@@ -22,7 +22,7 @@ namespace HelloStudents
         {
             for (int i = 50; i >= 0; i--)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"       {i}");
                 Thread.Sleep(250);
             }
         }
