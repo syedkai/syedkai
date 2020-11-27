@@ -9,8 +9,8 @@ namespace HelloStudents
         {
             BetterCalculator bCalc = new BetterCalculator();
 
-            double res = bCalc.Add(221, 42343);
-            double res2 = bCalc.Mul(221, 42343);
+            int res = bCalc.Add(221, 42343);
+            int res2 = bCalc.Mul(221, 42343);
             double res3 = bCalc.Div(221, 42343);
 
             Console.WriteLine(res);

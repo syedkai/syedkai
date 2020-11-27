@@ -8,12 +8,12 @@ namespace HelloStudents
 {
     class BetterCalculator
     {
-        public double Add(double a, double b)
+        public int Add(int a, int b)
         {
             return a + b;
         }
 
-        public double Mul(double a, double b)
+        public int Mul(int a, int b)
         {
             return a * b;
         }
@@ -22,7 +22,7 @@ namespace HelloStudents
         {
             return a / b;
         }
-        public double Sub(double a, double b)
+        public int Sub(int a, int b)
         {
             return a - b;
         }
