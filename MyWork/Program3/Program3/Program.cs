@@ -1,4 +1,5 @@
 ﻿using System;
+using ClassLibrary1;
 
 namespace Program3
 {
@@ -6,22 +7,42 @@ namespace Program3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number ");                           // Program to Multiply two integers
-            int a = int.Parse(Console.ReadLine());
+            try       // Block for checking errors
+            {
 
-            Console.WriteLine("Enter a 2nd number");
-            int b = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter a number ");                           // Program to Multiply two integers
+                int a = int.Parse(Console.ReadLine());
 
-            int result = ReadMulti.Multi(a,b);
+                Console.WriteLine("Enter a 2nd number");
+                int b = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($" Multiplication result is {result}");
+                int result = ClassMulti.Multi(a, b);
+                Console.WriteLine($" Multiplication result is {result}");
 
-            Console.WriteLine("Enter a String to get its length");           // Program to calculate the lenght of ta string
-            string c = Console.ReadLine();
-            int len = ReadMulti.Read(c);
 
-            
-            Console.WriteLine($" length of // {c} // is {len}");
+            }
+            catch (Exception ex)        // Exception Handling  ex will have the error details and you can show it using below statement
+            {
+                Console.WriteLine($" Error {ex}  \n please enter a number only");
+
+            }
+            finally      // will always execute 
+            {
+                 Console.WriteLine("Multiplication done finally");
+
+                 Console.WriteLine("Enter a String to get its length");           // Program to calculate the lenght of ta string
+                 string c = Console.ReadLine();
+                 int len = ClassRead.Read(c);
+
+
+                 Console.WriteLine($" length of // {c} // is {len}"); 
+
+
+            }
+
+
+
+
         }
     }
 }
