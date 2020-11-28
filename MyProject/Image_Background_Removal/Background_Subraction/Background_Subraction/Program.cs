@@ -7,6 +7,9 @@ namespace Background_Subraction
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+
+            Console.WriteLine("Hello World!");
         }
     }
 }
