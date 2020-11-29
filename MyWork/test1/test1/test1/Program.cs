@@ -9,6 +9,7 @@ namespace test1
             Console.WriteLine("Hello everyone");
             Console.WriteLine("");
             Console.WriteLine("just playing with VS");
+            Console.WriteLine("Lets see how does this git work!!");
         }
     }
 }
