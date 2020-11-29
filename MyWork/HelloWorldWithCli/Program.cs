@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace HelloWorldWithCLI
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World From Console!");
-   
+            Console.WriteLine("Hello World! This is Testing C# with Git");
         }
     }
 }
