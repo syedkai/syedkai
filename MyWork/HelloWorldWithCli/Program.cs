@@ -6,7 +6,7 @@ namespace HelloWorldWithCLI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World! This is Testing C# with Git");
         }
     }
 }
