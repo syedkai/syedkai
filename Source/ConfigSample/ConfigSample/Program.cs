@@ -23,11 +23,12 @@ namespace ConfigSample
 
             var builder = new ConfigurationBuilder()
 
-            // Fluent API
+           // Fluent API
 
-           .AddCommandLine(args)           
+
            .SetBasePath(Directory.GetCurrentDirectory())
            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+           .AddCommandLine(args)
            .AddEnvironmentVariables();
 
 
@@ -50,7 +51,7 @@ namespace ConfigSample
             float i = float.Parse(setting3, CultureInfo.InvariantCulture);
             //
             // Demonstrates how to read settings from sub section.
-            var section = configuration.GetSection("SubSettings");
+            var section = configuration.GetSection("MySubSettings");
             var subSetting1 = section["Setting1"];
             var subSetting2 = section["Setting2"];
             var subSetting3 = section["Setting3"];
@@ -60,12 +61,12 @@ namespace ConfigSample
             // Reads environment variables
             var machineName = configuration["COMPUTERNAME"];
             var processor = configuration["PROCESSOR_IDENTIFIER"];
-
+            var aaaa = configuration["AAAA"];
             //
             // Demonstrates how to read typed settings
             MySettings mySettings = new MySettings();
             configuration.GetSection("MySetting").Bind(mySettings);
-            Console.ReadLine();
+            //Console.ReadLine();
 
             //
             // Demonstrate how to load all settings.
