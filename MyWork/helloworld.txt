@@ -1,10 +1,10 @@
-// Tanzeem! program
-namespace Tanzeem
+// TanzeemHasan! program
+namespace TanzeemHasan
 {
     class Tanzeem {         
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Tanzeem!");
+            System.Console.WriteLine("TanzeemHasan!");
         }
     }
 }
