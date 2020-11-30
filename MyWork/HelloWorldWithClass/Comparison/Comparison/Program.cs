@@ -8,7 +8,7 @@ namespace Comparison
         static void Main(string[] args)
         {
             Console.WriteLine("This is comparison program. Please enter two numbers");
-            int a = Convert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());//variable
             int b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter letter g for greatest number and l for least number");
             string input = Console.ReadLine();
