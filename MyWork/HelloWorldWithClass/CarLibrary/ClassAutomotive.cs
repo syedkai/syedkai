@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HelloWorldWithClass
+namespace CarLibrary
 {
     public class ClassAutomotive
     {

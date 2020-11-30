@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldWithClass", "HelloWorldWithClass\HelloWorldWithClass.csproj", "{5B8E2423-13C2-455B-AC29-DC8F91D04752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldWithClass", "HelloWorldWithClass\HelloWorldWithClass.csproj", "{5B8E2423-13C2-455B-AC29-DC8F91D04752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLibrary", "CarLibrary\CarLibrary.csproj", "{24A5E9CB-61A9-4D2E-9FD2-C261DBD1223B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5B8E2423-13C2-455B-AC29-DC8F91D04752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B8E2423-13C2-455B-AC29-DC8F91D04752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B8E2423-13C2-455B-AC29-DC8F91D04752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A5E9CB-61A9-4D2E-9FD2-C261DBD1223B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A5E9CB-61A9-4D2E-9FD2-C261DBD1223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A5E9CB-61A9-4D2E-9FD2-C261DBD1223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A5E9CB-61A9-4D2E-9FD2-C261DBD1223B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
