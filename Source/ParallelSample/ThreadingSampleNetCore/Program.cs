@@ -17,6 +17,8 @@ namespace ThreadingSample
         {
             //var result = await AddAsync(1, 2);
 
+            //DoSomething().Wait();
+
             Console.WriteLine("Press any Key to start.");
             Console.ReadKey();
             //Console.ReadLine();
@@ -27,7 +29,7 @@ namespace ThreadingSample
             ParallelSamples sample = new ParallelSamples();
 
             // 1. Executes all tasks sequentianally
-            sample.StartSequenced(numThreads, workerFunction);
+            //sample.StartSequenced(numThreads, workerFunction);
 
             // 2.  Executes with spaning of every worker on a single thread.
             //sample.StartMultithreadedNative(numThreads, workerFunction);
@@ -36,13 +38,13 @@ namespace ThreadingSample
             //sample.StartMultithreadedNativeV2(numThreads, workerFunction);
 
             // 4.
-            //sample.StartWithTpl(numThreads, workerFunction);
+            sample.StartWithTpl(numThreads, workerFunction);
 
             sw.Stop();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("{0} ms", sw.ElapsedMilliseconds);
-
+            
             Console.ReadLine();
         }
 
@@ -77,6 +79,19 @@ namespace ThreadingSample
             });
 
             return result;
+        }
+
+        public static async Task DoSomething()
+        {
+            await new Task(() =>
+            {
+                Task.Delay(5000).Wait();
+            });
+
+            await Task.Run(() =>
+            {
+                Task.Delay(5000).Wait();
+            });
         }
     }
 
