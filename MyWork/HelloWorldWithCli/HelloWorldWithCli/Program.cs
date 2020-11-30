@@ -6,7 +6,7 @@ namespace HelloWorldWithCli
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("HI jiji!");
             Console.WriteLine("My First Commit!");
             Console.Write("What is your name?");
             String name = Console.ReadLine();
