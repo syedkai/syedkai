@@ -1,0 +1,15 @@
+using System;
+
+namespace HelloWorldwithVS
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to C#");
+            Class1 class1 = new Class1();
+            Console.WriteLine(class1.Calculation(10, 3));
+        }
+    }
+}
