@@ -1,3 +1,4 @@
+using DemoLib;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -14,6 +15,8 @@ namespace DemoWebApp
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            Book b = new Book();
+            Console.WriteLine($"{b.ISBN}");
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using DemoLib;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace ConsoleApp1
 
             var a = _config["inputValue"];
             var b = _config["Setting"];
+            var x = new Book();
         }
 
         static async Task sendrequest()
