@@ -43,7 +43,10 @@ namespace ConsoleAppWithClass
             System.Threading.Thread.Sleep(300);
 
             Console.WriteLine(user.AgeMessage());
+            Console.WriteLine("----------------------------");
 
+            Console.WriteLine("\nPress Any key to exit.");
+            Console.ReadLine();
         }
     }
 }
