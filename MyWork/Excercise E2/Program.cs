@@ -7,7 +7,7 @@ namespace HelloWorldWithCli
         static void Main(string[] args)
         {
             for(int i=1; i<200; i++)
-                Console.WriteLine($"Hello viewers from Windows10! Iteration= {i}");
+                Console.WriteLine($"Hello viewers from Windows! Iteration= {i}");
                 System.Threading.Thread.Sleep(100);
         }
     }
