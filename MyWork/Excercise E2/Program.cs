@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Newazapp
+namespace HelloWorldWithCli
 {
     class Program
     {
