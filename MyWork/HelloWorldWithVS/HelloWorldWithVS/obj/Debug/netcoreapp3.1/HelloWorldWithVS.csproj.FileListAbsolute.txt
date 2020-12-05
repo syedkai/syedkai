@@ -1,0 +1,13 @@
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\bin\Debug\netcoreapp3.1\HelloWorldWithVS.exe
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\bin\Debug\netcoreapp3.1\HelloWorldWithVS.deps.json
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\bin\Debug\netcoreapp3.1\HelloWorldWithVS.runtimeconfig.json
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\bin\Debug\netcoreapp3.1\HelloWorldWithVS.runtimeconfig.dev.json
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\bin\Debug\netcoreapp3.1\HelloWorldWithVS.dll
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\bin\Debug\netcoreapp3.1\HelloWorldWithVS.pdb
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\obj\Debug\netcoreapp3.1\HelloWorldWithVS.csprojAssemblyReference.cache
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\obj\Debug\netcoreapp3.1\HelloWorldWithVS.AssemblyInfoInputs.cache
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\obj\Debug\netcoreapp3.1\HelloWorldWithVS.AssemblyInfo.cs
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\obj\Debug\netcoreapp3.1\HelloWorldWithVS.csproj.CoreCompileInputs.cache
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\obj\Debug\netcoreapp3.1\HelloWorldWithVS.dll
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\obj\Debug\netcoreapp3.1\HelloWorldWithVS.pdb
+C:\Windows\Temp\NEW\TASK1\SE_PROJ\se-cloud-2020-2021\MyWork\HelloWorldWithVS\HelloWorldWithVS\obj\Debug\netcoreapp3.1\HelloWorldWithVS.genruntimeconfig.cache
