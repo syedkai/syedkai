@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloWorldWithClass;
+using System;
 
 namespace HelloWorldWithVS
 {
@@ -7,6 +8,8 @@ namespace HelloWorldWithVS
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Shape s = new Shape();
+            Console.WriteLine(s.Legs);
         }
     }
 }
