@@ -74,5 +74,26 @@ namespace InterfaceSamples
 
             Console.WriteLine(result);
         }
+
+        /// <summary>
+        /// Downloads all data from somewhere => dataProvider of type IData
+        /// </summary>
+        /// <param name="dataProvider"></param>
+        /// <param name="database"></param>
+        //public void GetDataAndSaveItToDatabase(IData dataProvider, IRepository database)
+        //{
+
+        //    foreach (object dataRecord in dataProvider.DownlodAllRecords{
+
+        //        var email = dataRecord.UserEMail;
+
+        //        var newEmail = remail.Replace("@myoldcompanyname.com", "@mynewcompanyname.com");
+
+        //        database.SaveToDb(changedEmal);
+
+        //    }
+        //}
+
+  
     }
 }
