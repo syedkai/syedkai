@@ -9,6 +9,12 @@ namespace HelloStudents
         {
             Console.WriteLine("Hello World!");
 
+            MyLibrary.MyLib referencedLib = new MyLibrary.MyLib();
+            
+            var res = referencedLib.Calculate(11, 23132);
+            Console.WriteLine(referencedLib.Divide(10, 2));
+            Console.WriteLine(res);
+
            /* MyAlgorithm alg = new MyAlgorithm();
 
             for (int i = 0; i < 10; i++)
