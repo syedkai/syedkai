@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloStudents
 {
-    internal  class MyAlgorithm
+    internal class MyAlgorithm
     {
         public double Calculate(int i)
         {

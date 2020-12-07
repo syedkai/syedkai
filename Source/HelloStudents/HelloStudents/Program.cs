@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using System.Threading;
+
+[assembly: InternalsVisibleTo("UnitTestProject")]
 
 namespace HelloStudents
 {
@@ -11,7 +14,7 @@ namespace HelloStudents
 
             MyLibrary.MyLib referencedLib = new MyLibrary.MyLib();
             
-            var res = referencedLib.Calculate(11, 23132);
+            var res = referencedLib.Sum(11, 23132);
             Console.WriteLine(referencedLib.Divide(10, 2));
             Console.WriteLine(res);
 
