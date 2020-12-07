@@ -1,4 +1,5 @@
 ﻿using System;
+using classlib;
 
 namespace HelloWorldWithClass
 {
@@ -8,7 +9,7 @@ namespace HelloWorldWithClass
 
         {
             Student newstudent = new Student("Jiji", 18, "Indian");
-            Car newcolor = new Car("White");
+            Class1 newcolor = new Class1("White");
             School newschool = new School("Carmel Convent");
 
             Console.WriteLine(newstudent.toString());
