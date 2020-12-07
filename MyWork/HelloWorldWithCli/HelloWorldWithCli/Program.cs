@@ -2,7 +2,7 @@
 
 namespace HelloWorldWithCli
 {
-    class Program
+    class  Program
     {
         static public void Main(string[] args)
         {
