@@ -38,7 +38,7 @@ namespace InterfaceSamples
 
 
         /// <summary>
-        /// Demonstrates how to implement and used two classes, that implement some math algorithms.
+        /// Demonstrates how to implement and use two classes, that implement some math algorithms.
         /// </summary>
         private static void Sample1()
         {

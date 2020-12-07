@@ -31,5 +31,7 @@ namespace InterfaceSamples
                 this.m_Sum += number;
             }
         }
+
+       
     }
 }
