@@ -1,0 +1,10 @@
+doubs -
+continuewith(t)
+static class needs obj to call it?
+
+
+
+known - 
+parent if protected can make its parameters used by its child
+try catch finally
+object - return type of funtion name that folo
