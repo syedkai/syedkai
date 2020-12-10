@@ -8,7 +8,7 @@ namespace Interfaceandclasses
         {
             Console.WriteLine("Hello World!");
 
-            double[] data = new double[] { 22.5, 55.5, 27.5, 10.5 };
+            double[] data = new double[] { 22.5, 55.5, 27.5, 10.5, 15.1 };
             // int n = data.Length;
 
             SumAlgorithm sum = new SumAlgorithm();
