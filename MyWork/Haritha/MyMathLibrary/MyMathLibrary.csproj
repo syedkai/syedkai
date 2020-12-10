@@ -8,4 +8,10 @@
     <PackageReference Include="Humanizer" Version="2.8.26" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="humanizer.2.8.26.nupkg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
