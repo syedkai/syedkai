@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace publish_independant
+namespace HelloWorldWithVS
 {
     class Program
     {
