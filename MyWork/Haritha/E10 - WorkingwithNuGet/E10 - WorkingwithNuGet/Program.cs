@@ -1,5 +1,5 @@
 ﻿using System;
-using MyMathLibrary;
+// using MyMathLibrary;
 using Humanizer;
 
 
@@ -29,11 +29,10 @@ namespace E10___WorkingwithNuGet
             value = float.Parse(Console.ReadLine());
 
             // Creating instance of class from Local Library
-            MyMathLib MathLibinstance = new MyMathLib();
+         //  MyMathLib MathLibinstance = new MyMathLib();
             // also can give MyMathLibrary.MyMath........
-            Console.WriteLine(MathLibinstance.SquareRoot(value));
-
-
+        //    Console.WriteLine(MathLibinstance.SquareRoot(value));
+            
             /* added accounting.js through packet manager in VS
              
              added humanizer through Command Line Interface 
