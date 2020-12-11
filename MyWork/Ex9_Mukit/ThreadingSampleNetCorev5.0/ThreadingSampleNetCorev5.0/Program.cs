@@ -9,15 +9,15 @@ namespace ThreadingSampleNetCorev5._0
     {
 
 
-        static int numThreads, coreCount = 0;
+        static int numThreads, coreCount = 0, numProcessors = 0;
         static Stopwatch sw;
         static string runtimenetCoreVer;
 
         static void Main(string[] args)
         {
-
+            
             Regex r = new Regex(@"[0-9]");
-            SystemCoreCount();
+            //SystemCoreCount();
             runtimenetCoreVer = System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription;
             Console.WriteLine("Framework Version: "+ runtimenetCoreVer);
             Console.WriteLine("This programme will do three things using input threads numbers");
@@ -33,25 +33,32 @@ namespace ThreadingSampleNetCorev5._0
             while (true)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("\nPlease enter number of Threads: .");
+                Console.WriteLine("\nPlease enter number of Threads:");
                 string line = Console.ReadLine();
+                Console.WriteLine("\nNumber of processors (Affinity in TaskMgr):");
+                string np = Console.ReadLine();
 
                 if (line == "exit")
                 {
                     break;
                 }
 
-                else if (r.IsMatch(line))
+                else if (r.IsMatch(line) && r.IsMatch(np))
                 {
                   
                     
                     numThreads = int.Parse(line);
+                    numProcessors = int.Parse(np);
+                    /*
+                    * set number of processors (affinity in taskMgr)
+                    */
+                    Process.GetCurrentProcess().ProcessorAffinity = (System.IntPtr)numProcessors;
                     sw = new Stopwatch();
                     sw.Start();
                     ParallelSamples sample = new ParallelSamples();
                     Thread.Sleep(500);
 
-                    ;
+                    
                     /*
                      * start all jobs sequencially using main single thread
                      */
@@ -124,13 +131,13 @@ namespace ThreadingSampleNetCorev5._0
             {
 
                 case 1:
-                    Console.WriteLine("Job Approach: Job in Sequence; framework_version: " + runtimenetCoreVer+ " cores: " + coreCount + " total_threads: "+ numberOfthreds + " elasped time: " + "{0} ms", sw.ElapsedMilliseconds);
+                    Console.WriteLine("Approach: Job in Sequence; number of processors: " +numProcessors + " total_threads:" + numberOfthreds + " Execution time: " + "{0} ms", sw.ElapsedMilliseconds);
                     break;
                 case 2:
-                    Console.WriteLine("Job Approach: Job in Each Thread; framework_version: " + runtimenetCoreVer + " cores: " + coreCount + " total_threads: " + numberOfthreds + " elasped time: " + "{0} ms", sw.ElapsedMilliseconds);
+                    Console.WriteLine("Approach: Job in Each Thread; number of processors: " + numProcessors+ " total_threads: " + numberOfthreds + " execution time: " + "{0} ms", sw.ElapsedMilliseconds);
                     break;
                 case 3:
-                    Console.WriteLine("Job Approach: Parallel Task; framework_version: " + runtimenetCoreVer + " cores: " + coreCount + " total_threads: " + numberOfthreds + " elasped time: " + "{0} ms", sw.ElapsedMilliseconds);
+                    Console.WriteLine("Approach: Parallel Task; number of processors: " + numProcessors + " total_threads: " + numberOfthreds + " execution time: " + "{0} ms", sw.ElapsedMilliseconds);
                     break;
                 
             }
