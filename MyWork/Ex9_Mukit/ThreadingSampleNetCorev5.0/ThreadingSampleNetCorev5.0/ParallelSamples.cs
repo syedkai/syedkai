@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace ThreadingSampleNetCorev5._0
 {
     class ParallelSamples
-     {
+    {
+        public void StartJobInSeqence(int sequences , Action<object>func) {
 
         private long m_FinishCounter = 0;
 
@@ -60,7 +61,7 @@ namespace ThreadingSampleNetCorev5._0
 
 
             List<Task> tList = new List<Task>();
-
+  
             for (int i = 0; i < threads; i++)
             {
                 var t = new Task(func, new Action<string>(OnThreadFinished));
@@ -70,8 +71,8 @@ namespace ThreadingSampleNetCorev5._0
             foreach (var t in tList)
             {
                 t.Start();
-            }
-           
+        }
+
             Task.WaitAll(tList.ToArray());
 
         }

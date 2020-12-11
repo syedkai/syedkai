@@ -7,15 +7,16 @@ namespace ThreadingSampleNetCorev5._0
     class Program
     {
 
-       
-        
+
+        static int numSequence = 100;
+
         static int numThreads= 6, coreCount = 0;
         static Stopwatch sw;
         static String runtimenetCoreVer;
 
         static void Main(string[] args)
         {
-            
+
 
 
 
@@ -59,10 +60,10 @@ namespace ThreadingSampleNetCorev5._0
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"Started thread: {Thread.CurrentThread.Name} - {Thread.CurrentThread.ManagedThreadId}");
             int r = 1;
-
+      
             for (int i = 0; i < 35000899; i++)
             {
-                r = r + 1;
+                r = r + 1; 
             }
 
             if (onFinishDelegate != null)
@@ -72,7 +73,7 @@ namespace ThreadingSampleNetCorev5._0
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Stopped thread: {0}", Thread.CurrentThread.Name);
-
+           
         }
 
 
