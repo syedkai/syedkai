@@ -9,29 +9,29 @@ namespace ThreadingSampleNetCorev5._0
     {
 
 
-        static int numThreads, coreCount = 0, numProcessors = 0;
+        static int numThreads, coreCount = 0, numProcessors = 0, choicedTestNameNumber = 0;
         static Stopwatch sw;
-        static string runtimenetCoreVer;
+        static string runtimenetCoreVer,testName;
 
         static void Main(string[] args)
         {
             
-            Regex r = new Regex(@"[0-9]");
+            Regex r = new Regex(@"[1-9]");
+           
             //SystemCoreCount();
             runtimenetCoreVer = System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription;
             Console.WriteLine("Framework Version: "+ runtimenetCoreVer);
-            Console.WriteLine("This programme will do three things using input threads numbers");
-            Console.WriteLine(" 1. Will Run a job in Sequence");
-            Console.WriteLine(" 2. Then Run every job in its own thread");
-            Console.WriteLine(" 3. Finally, Run jobs as parallel Tasks");
-            Console.WriteLine("-----------------------------------");
-
+           
 
 
             Console.WriteLine("To stop the programme please type 'exit' ");
 
             while (true)
             {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                displayCommonMessage();
+                Console.WriteLine("\nPlease enter a choice number from suggested Test Name :");
+                string tn = Console.ReadLine();
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("\nPlease enter number of Threads:");
                 string line = Console.ReadLine();
@@ -43,64 +43,88 @@ namespace ThreadingSampleNetCorev5._0
                     break;
                 }
 
-                else if (r.IsMatch(line) && r.IsMatch(np))
+                else if (r.IsMatch(line) && r.IsMatch(np) && r.IsMatch(tn))
                 {
-                  
-                    
+
+                    choicedTestNameNumber = int.Parse(tn);
                     numThreads = int.Parse(line);
                     numProcessors = int.Parse(np);
-                    /*
-                    * set number of processors (affinity in taskMgr)
-                    */
                     Process.GetCurrentProcess().ProcessorAffinity = (System.IntPtr)numProcessors;
                     sw = new Stopwatch();
                     sw.Start();
                     ParallelSamples sample = new ParallelSamples();
-                    Thread.Sleep(500);
-
-                    
                     /*
-                     * start all jobs sequencially using main single thread
-                     */
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\nStarting Run a job in Sequence....\n");
-                    sample.StartJobInSeqence(numThreads, Workerfuntion);
-                    sw.Stop();
-                    FormatOutput(1, 1);
-                    Thread.Sleep(500);
-
-                    /*
-                    * start all jobs in each thread separately to perfrom multithreading
+                    * set number of processors (affinity in taskMgr)
                     */
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\nStarting to  Run every job in its own thread....\n");
-                    sw.Restart();
-                    sample.StartEachJobInOwnThread(numThreads, Workerfuntion);
-                    sw.Stop();
-                    FormatOutput(2, numThreads);
 
-                    /*
-                    *  start all jobs Parallel Task
-                    */
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\nStarting to  Run jobs as parallel Tasks....\n");
-                    sw.Restart();
-                    sample.StartJobsInParallelTask(numThreads, Workerfuntion);
-                    sw.Stop();
-                    FormatOutput(3, numThreads);
+                    switch (choicedTestNameNumber) {
+                        case 1:
+                            /*
+                             * start all jobs sequencially using main single thread
+                            */
+                            testName = "a job in Sequence";
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\nStarting Run a job in Sequence....\n");
+                            sample.StartJobInSeqence(numThreads, Workerfuntion);
+                            sw.Stop();
+                            FormatOutput(1, 1);
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            break;
 
-                    Console.ForegroundColor = ConsoleColor.Cyan;
+                        case 2:
+                            /*
+                            * start all jobs in each thread separately to perfrom multithreading
+                            */
+                            testName = "a job in Sequence";
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\nStarting to  Run every job in its own thread....\n");
+                            sw.Restart();
+                            sample.StartEachJobInOwnThread(numThreads, Workerfuntion);
+                            sw.Stop();
+                            FormatOutput(2, numThreads);
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            break;
+
+                        case 3:
+                            /*
+                             *  start all jobs Parallel Task
+                            */
+                            testName = "jobs as parallel Tasks";
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\nStarting to  Run jobs as parallel Tasks....\n");
+                            sw.Restart();
+                            sample.StartJobsInParallelTask(numThreads, Workerfuntion);
+                            sw.Stop();
+                            FormatOutput(3, numThreads);
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            break;
+                            
+
+                    }
+
+       
                     //GC.SuppressFinalize(sample);
 
                 }
                 else
                 {
-                    Console.WriteLine("invalid input. please try again");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\ninvalid input. input number should be > 0 . please try again\n");
                 }
                   
             }  
         }
 
+        private static void displayCommonMessage()
+        {
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Please choose a Test Name from following three dwon there:");
+            Console.WriteLine("1->Run a job in Sequence");
+            Console.WriteLine("2->Run every job in its own thread");
+            Console.WriteLine("3->Run jobs as parallel Tasks");
+            Console.WriteLine("-----------------------------------");
+
+        }
 
         private static void Workerfuntion(Object onFinishDelegate)
         {
@@ -126,18 +150,18 @@ namespace ThreadingSampleNetCorev5._0
 
         private static void FormatOutput(int p_type,int numberOfthreds)
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.White;
             switch (p_type)
             {
 
                 case 1:
-                    Console.WriteLine("Approach: Job in Sequence; number of processors: " +numProcessors + " total_threads:" + numberOfthreds + " Execution time: " + "{0} ms", sw.ElapsedMilliseconds);
+                    Console.WriteLine("Approach: "+ testName+"; number of processors: " +numProcessors + "; total_threads:" + numberOfthreds + "; execution time: " + "{0} ms", sw.ElapsedMilliseconds);
                     break;
                 case 2:
-                    Console.WriteLine("Approach: Job in Each Thread; number of processors: " + numProcessors+ " total_threads: " + numberOfthreds + " execution time: " + "{0} ms", sw.ElapsedMilliseconds);
+                    Console.WriteLine("Approach: " + testName + "; number of processors: " + numProcessors+ "; total_threads: " + numberOfthreds + "; execution time: " + "{0} ms", sw.ElapsedMilliseconds);
                     break;
                 case 3:
-                    Console.WriteLine("Approach: Parallel Task; number of processors: " + numProcessors + " total_threads: " + numberOfthreds + " execution time: " + "{0} ms", sw.ElapsedMilliseconds);
+                    Console.WriteLine("Approach: " + testName + "; number of processors: " + numProcessors + "; total_threads: " + numberOfthreds + "; execution time: " + "{0} ms", sw.ElapsedMilliseconds);
                     break;
                 
             }
@@ -148,10 +172,6 @@ namespace ThreadingSampleNetCorev5._0
             coreCount = Environment.ProcessorCount;
         }
 
-       
 
-
-
-   
     }
 }
