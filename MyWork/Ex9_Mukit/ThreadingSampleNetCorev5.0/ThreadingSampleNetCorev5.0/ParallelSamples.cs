@@ -9,14 +9,19 @@ namespace ThreadingSampleNetCorev5._0
 {
     class ParallelSamples
     {
-        public void StartJobInSeqence(int sequences , Action<object>func) {
+       
 
         private long m_FinishCounter = 0;
 
         public void StartJobInSeqence(int sequences, Action<object> func)
         {
-
-            Thread.CurrentThread.Name = "Single Main Thread";
+            try
+            {
+                Thread.CurrentThread.Name = "Single Main Thread";
+            }
+            catch  {
+                return;
+                 }
 
             for (int i = 0; i < sequences; i++)
             {
@@ -36,7 +41,16 @@ namespace ThreadingSampleNetCorev5._0
         {
              for (int i = 0; i < threads; i++)
             {
-                var t = new Thread(new ParameterizedThreadStart(func));
+                Thread t;
+                try
+                {
+                     t = new Thread(new ParameterizedThreadStart(func));
+                }
+                catch 
+                {
+                    return;
+                }
+
                 t.Name = i.ToString();
                 t.Start(new Action<string>(OnThreadFinished));
             }
@@ -64,14 +78,22 @@ namespace ThreadingSampleNetCorev5._0
   
             for (int i = 0; i < threads; i++)
             {
-                var t = new Task(func, new Action<string>(OnThreadFinished));
+                Task t;
+                try
+                {
+                    t = new Task(func, new Action<string>(OnThreadFinished));
+                }
+                catch
+                {
+                    return;
+                }
                 tList.Add(t);
             }
 
             foreach (var t in tList)
             {
                 t.Start();
-        }
+               }
 
             Task.WaitAll(tList.ToArray());
 
