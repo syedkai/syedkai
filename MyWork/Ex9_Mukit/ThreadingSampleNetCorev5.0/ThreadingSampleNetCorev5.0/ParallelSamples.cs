@@ -19,40 +19,42 @@ namespace ThreadingSampleNetCorev5._0
             {
                 Thread.CurrentThread.Name = "Single Main Thread";
             }
-            catch  {
-                return;
-                 }
-
-            for (int i = 0; i < sequences; i++)
+            catch { }
+            finally
             {
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Job Sequence No: {0}", i);
-                func(null);
+                for (int i = 0; i < sequences; i++)
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("Job Sequence No: {0}", i);
+                    func(null);
+                }
+
             }
-
-
 
         }
 
 
-       
-
+      
         public void StartEachJobInOwnThread(int threads, Action<object> func)
         {
              for (int i = 0; i < threads; i++)
             {
-                Thread t;
+                Thread t = null;
                 try
                 {
-                     t = new Thread(new ParameterizedThreadStart(func));
+                    t = new Thread(new ParameterizedThreadStart(func));
                 }
-                catch 
+                catch
                 {
-                    return;
+
+                }
+                finally {
+
+                    t.Name = i.ToString();
+                    t.Start(new Action<string>(OnThreadFinished));
                 }
 
-                t.Name = i.ToString();
-                t.Start(new Action<string>(OnThreadFinished));
+               
             }
             while (true)
             {
@@ -78,22 +80,24 @@ namespace ThreadingSampleNetCorev5._0
   
             for (int i = 0; i < threads; i++)
             {
-                Task t;
+                Task t = null;
                 try
                 {
                     t = new Task(func, new Action<string>(OnThreadFinished));
                 }
                 catch
                 {
-                    return;
                 }
-                tList.Add(t);
+                finally {
+                    tList.Add(t);
+                }
+               
             }
 
             foreach (var t in tList)
             {
                 t.Start();
-               }
+            }
 
             Task.WaitAll(tList.ToArray());
 

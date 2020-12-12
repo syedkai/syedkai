@@ -62,6 +62,7 @@ namespace ThreadingSampleNetCorev5._0
                             /*
                              * start all jobs sequencially using main single thread
                             */
+                            
                             testName = "a job in Sequence";
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\nStarting Run a job in Sequence....\n");
@@ -132,7 +133,7 @@ namespace ThreadingSampleNetCorev5._0
             Console.WriteLine($"Started thread: {Thread.CurrentThread.Name} - {Thread.CurrentThread.ManagedThreadId}");
             int r = 1;
       
-            for (int i = 0; i < 35000899; i++)
+            for (int i = 0; i < 3; i++)
             {
                 r = r + 1; 
             }
