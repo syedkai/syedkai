@@ -1,0 +1,16 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\bin\Debug\net5.0\Publish-Independent.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\bin\Debug\net5.0\Publish-Independent.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\bin\Debug\net5.0\Publish-Independent.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\bin\Debug\net5.0\Publish-Independent.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\bin\Debug\net5.0\Publish-Independent.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\bin\Debug\net5.0\ref\Publish-Independent.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\bin\Debug\net5.0\Publish-Independent.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\ref\Publish-Independent.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\Publish-Independent\Publish-Independent\obj\Debug\net5.0\Publish-Independent.genruntimeconfig.cache
