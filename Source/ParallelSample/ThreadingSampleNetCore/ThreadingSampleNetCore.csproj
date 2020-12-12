@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="..\ThreadingSample\ParallelSamples.cs" Link="ParallelSamples.cs" />
-  </ItemGroup>
-
 </Project>
