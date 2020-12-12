@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>HextoBinary</PackageId>
+    <Authors>Haritha</Authors>
+    <Company>SE</Company>
+    <Product>HextoBinaryCanonical</Product>
+    <Description>Convert hexadecimal string to binary and also view Canonical format address</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/haritha/MyWork/Haritha</PackageProjectUrl>
+    <PackageIcon>ref.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>Hexadecimal, hex, binary, convert, conversion, canonical</PackageTags>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>changed namespace</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Cultural Diversity\Presentation\ref.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Humanizer" Version="2.8.26" />
+	<PackageReference Include="HextoBinary" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MyMathLibrary\MyMathLibrary.csproj" />
   </ItemGroup>
 
 </Project>
