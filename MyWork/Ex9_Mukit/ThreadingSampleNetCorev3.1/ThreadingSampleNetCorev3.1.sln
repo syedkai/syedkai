@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingSampleNetCorev3.1", "ThreadingSampleNetCorev3.1\ThreadingSampleNetCorev3.1.csproj", "{23DD3FC4-88F0-4402-8679-40DA9FFD3A21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23DD3FC4-88F0-4402-8679-40DA9FFD3A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DD3FC4-88F0-4402-8679-40DA9FFD3A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DD3FC4-88F0-4402-8679-40DA9FFD3A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DD3FC4-88F0-4402-8679-40DA9FFD3A21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6683C1AB-75B2-4865-BCE4-3FD9BE9BB8F9}
+	EndGlobalSection
+EndGlobal
