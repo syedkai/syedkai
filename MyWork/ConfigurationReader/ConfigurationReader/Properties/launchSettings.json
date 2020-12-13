@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConfigurationReader": {
+      "commandName": "Project",
+      "commandLineArgs": "--color pink --fontSize 20 "
+    }
+  }
+}
