@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloWorldwithVS": {
+      "commandName": "Project",
+      "commandLineArgs": "aaa  bbb ccc ggg"
+    }
+  }
+}
