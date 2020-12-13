@@ -6,7 +6,8 @@ namespace ParallelProcessing
 {
     interface IThread
     {
-        void sequence(int threadLoop, Action<object> callback);
-
+        void sequenceTask(int threadLoop, Action<object> callback);
+        void ownThreadTask(int numOfThread, Action<object> callback);
+        void parallelTask(int numOfThread, Action<object> callback);
     }
 }

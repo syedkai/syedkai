@@ -13,7 +13,7 @@ namespace ParallelProcessing
             stopWatch.Start();
 
             Parallel parallel = new Parallel();
-            parallel.sequence(5, callback);
+            parallel.sequenceTask(5, callback);
 
             stopWatch.Stop();
             Console.WriteLine("Total Elapsed Time = {0}", stopWatch.Elapsed);
