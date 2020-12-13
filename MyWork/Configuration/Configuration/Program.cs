@@ -29,6 +29,7 @@ namespace Configuration
             config.GetSection("data").Bind(userData);
             Console.WriteLine("Name={0} .. DOB={1}", userData.Name, userData.Dob);
 
+            Console.ReadLine();
         }
     }
 }
