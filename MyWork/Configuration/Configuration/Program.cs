@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Configuration.model;
 using Microsoft.Extensions.Configuration;
 
 namespace Configuration
@@ -23,6 +24,11 @@ namespace Configuration
             var mode = config["mode"];
 
             Console.WriteLine("Username={0} .. Mode={1}", username, mode);
+
+            UserData userData = new UserData();
+            config.GetSection("data").Bind(userData);
+            Console.WriteLine("Name={0} .. DOB={1}", userData.Name, userData.Dob);
+
         }
     }
 }
