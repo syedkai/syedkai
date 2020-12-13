@@ -1,0 +1,5 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\publish\DebuggingProject.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\publish\DebuggingProject.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\publish\DebuggingProject.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\publish\DebuggingProject.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\publish\DebuggingProject.pdb
