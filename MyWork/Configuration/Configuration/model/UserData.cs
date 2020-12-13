@@ -16,5 +16,8 @@ namespace Configuration.model
             Name = name;
             Dob = dob;
         }
+
+        public UserData() { 
+        }
     }
 }
