@@ -17,7 +17,8 @@ namespace ParallelProcessing
         private static void callback(object onComplete)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Thread ${0}", Thread.CurrentThread.Name);
+            Console.WriteLine("{0} : Start Thread name {1}", Thread.CurrentThread.ManagedThreadId,Thread.CurrentThread.Name);
+            Console.ResetColor();
 
             long count = 9999;
             long total = 0;
@@ -30,6 +31,10 @@ namespace ParallelProcessing
             {
                 ((Action<String>) onComplete)(Thread.CurrentThread.Name);
             }
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("{0} : Stop Thread name {1}", Thread.CurrentThread.ManagedThreadId, Thread.CurrentThread.Name);
+            Console.ResetColor();
         }
     }
 }
