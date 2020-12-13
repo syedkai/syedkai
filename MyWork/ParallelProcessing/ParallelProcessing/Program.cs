@@ -23,7 +23,6 @@ namespace ParallelProcessing
             long count = 9999;
             long total = 0;
             for (int i = 0; i < count; i++) {
-                Console.WriteLine(i);
                 total += (i + 1) * count / 50*16;
             }
 
