@@ -19,7 +19,6 @@ namespace Configuration
             var cmdArgLocation = config["location"];
             Console.WriteLine("{0}", cmdArgLocation);
 
-
             var username = config["username"];
             var mode = config["mode"];
 
@@ -28,6 +27,16 @@ namespace Configuration
             UserData userData = new UserData();
             config.GetSection("data").Bind(userData);
             Console.WriteLine("Name={0} .. DOB={1}", userData.Name, userData.Dob);
+
+            // Read Array from json file
+            var scopes = config.GetSection("scope").Get<string[]>();
+
+            Console.WriteLine("Scopes-------");
+            foreach (string scope in scopes)
+            {
+                System.Threading.Thread.Sleep(300);
+                Console.WriteLine(scope);
+            }
 
             Console.ReadLine();
         }
