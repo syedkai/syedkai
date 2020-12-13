@@ -18,6 +18,11 @@ namespace Configuration
             var cmdArgLocation = config["location"];
             Console.WriteLine("{0}", cmdArgLocation);
 
+
+            var username = config["username"];
+            var mode = config["mode"];
+
+            Console.WriteLine("Username={0} .. Mode={1}", username, mode);
         }
     }
 }
