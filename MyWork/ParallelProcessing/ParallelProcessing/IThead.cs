@@ -6,7 +6,7 @@ namespace ParallelProcessing
 {
     interface IThead
     {
-        void sequence();
+        void sequence(int threadLoop, Action<object> callback);
 
     }
 }
