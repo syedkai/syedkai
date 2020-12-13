@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ParallelProcessing
 {
-    interface IThead
+    interface IThread
     {
         void sequence(int threadLoop, Action<object> callback);
 

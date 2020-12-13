@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace ParallelProcessing
 {
-    class Parallel : IThead
+    class Parallel : IThread
     {
         public void sequence(int threadLoop, Action<object> callback)
         {
