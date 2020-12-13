@@ -14,6 +14,10 @@ namespace Configuration
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .AddEnvironmentVariables()
                 .Build();
+
+            var cmdArgLocation = config["location"];
+            Console.WriteLine("{0}", cmdArgLocation);
+
         }
     }
 }
