@@ -1,14 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Threading;
 
 namespace ParallelProcessing
 {
     class Parallel : IThead
     {
-        public void sequence()
+        public void sequence(int threadLoop, Action<object> callback)
         {
-            throw new NotImplementedException();
+            Thread.CurrentThread.Name = "Single Thread";
+            for (int i = 0; i < threadLoop; i++) {
+                callback(null);
+            }
         }
     }
 }
