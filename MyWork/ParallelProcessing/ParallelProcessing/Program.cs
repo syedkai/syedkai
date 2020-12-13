@@ -9,14 +9,34 @@ namespace ParallelProcessing
         static void Main(string[] args)
         {
 
+            var numOfThreads = 10;
+
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
 
+            Console.WriteLine("------------------Using Squential--------------------------");
             Parallel parallel = new Parallel();
-            parallel.sequenceTask(5, callback);
+            parallel.sequenceTask(numOfThreads, callback);
 
             stopWatch.Stop();
-            Console.WriteLine("Total Elapsed Time = {0}", stopWatch.Elapsed);
+            Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
+            Console.WriteLine("--------------------------End--------------------------");
+
+
+            Console.WriteLine("------------------Using New Thread--------------------------");
+            stopWatch.Restart();
+            parallel.ownThreadTask(numOfThreads, callback);
+            stopWatch.Stop();
+            Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
+            Console.WriteLine("--------------------------End--------------------------");
+
+
+            Console.WriteLine("------------------Using Task--------------------------");
+            stopWatch.Restart();
+            parallel.parallelTask(numOfThreads, callback);
+            stopWatch.Stop();
+            Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
+            Console.WriteLine("--------------------------End--------------------------");
 
             Console.ReadLine();
         }
