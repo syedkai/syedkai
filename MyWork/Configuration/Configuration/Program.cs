@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using Microsoft.Extensions.Configuration;
 
 namespace Configuration
 {
@@ -6,7 +8,12 @@ namespace Configuration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Project to demonstrate configuration usuage");
+            var config = new ConfigurationBuilder()
+                .AddCommandLine(args)
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddEnvironmentVariables()
+                .Build();
         }
     }
 }
