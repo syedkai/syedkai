@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace ParallelProcessing
 {
@@ -39,7 +41,20 @@ namespace ParallelProcessing
 
         public void parallelTask(int numOfThread, Action<object> callback)
         {
-            throw new NotImplementedException();
+            List<Task> tasks = new List<Task>(); 
+
+            for (int i = 0; i < numOfThread; i++)
+            {
+                var task = new Task(callback, new Action<string>(onThreadFinished));
+                tasks.Add(task);
+            }
+
+            foreach(var task in tasks)
+            {
+                task.Start();
+            }
+
+            Task.WaitAll(tasks.ToArray());
         }
 
         private void onThreadFinished(string threadName)
