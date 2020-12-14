@@ -1,0 +1,16 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\bin\Debug\net5.0\InterfacesAndClasses.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\bin\Debug\net5.0\InterfacesAndClasses.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\bin\Debug\net5.0\InterfacesAndClasses.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\bin\Debug\net5.0\InterfacesAndClasses.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\bin\Debug\net5.0\InterfacesAndClasses.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\bin\Debug\net5.0\ref\InterfacesAndClasses.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\bin\Debug\net5.0\InterfacesAndClasses.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\ref\InterfacesAndClasses.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\InterfacesAndClasses\InterfacesAndClasses\obj\Debug\net5.0\InterfacesAndClasses.genruntimeconfig.cache
