@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\DOLPHIN\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\DOLPHIN\\.nuget\\packages"
-    ]
-  }
-}
