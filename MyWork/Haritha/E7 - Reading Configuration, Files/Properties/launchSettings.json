@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "E7 - Reading Configuration, Files": {
+      "commandName": "Project",
+      "commandLineArgs": "--a 1 --b 2 --t 3 --e 4 --s 5 --t 6 "
+    }
+  }
+}
+
