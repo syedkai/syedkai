@@ -11,7 +11,7 @@ namespace ParalleProcessing
 {
     class Program
     {
-        static int numThreads = 100;
+        static int numThreads = 150;
         static void Main(string[] args)
         {
             Console.WriteLine("Understanding Threading Concepts!!!");
@@ -20,13 +20,14 @@ namespace ParalleProcessing
             Console.ReadKey();
             //Console.ReadLine();
 
+            
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
             ParallelSamples sample = new ParallelSamples();
 
             // 1. Executes all tasks sequentianally
-            sample.StartSequenced(numThreads, workerFunction);
+            //sample.StartSequenced(numThreads, workerFunction);
 
             // 2.  Executes with spaning of every worker on a single thread.
             //sample.StartMultithreadedNative(numThreads, workerFunction);
@@ -35,14 +36,24 @@ namespace ParalleProcessing
             //sample.StartMultithreadedNativeV2(numThreads, workerFunction);
 
             // 4.
-            //sample.StartWithTpl(numThreads, workerFunction);
+            sample.StartWithTpl(numThreads, workerFunction);
 
             sw.Stop();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("{0} ms", sw.ElapsedMilliseconds);
 
-            Console.ReadLine();
+            //string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            using (StreamWriter writer = new StreamWriter(@"C:\Sweta'sDisk\FUAS_official\Lectures_notes_IT\SW_Project\SE_Repo\MyWork\ParallelProcessing\Parallel_time_execution.txt"))
+            {
+                //foreach()
+                
+                    writer.WriteLine("{0} ms", sw.ElapsedMilliseconds);
+                
+                //writer.WriteLine("{0} ms",sw.ElapsedMilliseconds);
+            }
+
+                Console.ReadLine();
         }
 
         private static void workerFunction(object onFinishDelegate)
