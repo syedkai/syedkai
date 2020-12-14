@@ -43,14 +43,9 @@ namespace ParalleProcessing
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("{0} ms", sw.ElapsedMilliseconds);
 
-            //string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             using (StreamWriter writer = new StreamWriter(@"C:\Sweta'sDisk\FUAS_official\Lectures_notes_IT\SW_Project\SE_Repo\MyWork\ParallelProcessing\Parallel_time_execution.txt"))
             {
-                //foreach()
-                
                     writer.WriteLine("{0} ms", sw.ElapsedMilliseconds);
-                
-                //writer.WriteLine("{0} ms",sw.ElapsedMilliseconds);
             }
 
                 Console.ReadLine();
