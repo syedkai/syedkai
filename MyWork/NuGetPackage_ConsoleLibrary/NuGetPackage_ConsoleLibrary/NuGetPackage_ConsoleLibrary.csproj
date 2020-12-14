@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>FHFrankfurt.NuGetPackage_ConsoleLibrary</PackageId>
+    <Authors>Shivam Kaushik</Authors>
+    <Company>FH Frankfurt</Company>
+    <Description>Libray to return addition of 2 Numbers</Description>
+    <PackageTags>Add, Two, Numbers</PackageTags>
+    <Version>5.0.0</Version>
+  </PropertyGroup>
+
+</Project>
