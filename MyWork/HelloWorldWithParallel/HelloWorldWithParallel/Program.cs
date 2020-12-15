@@ -36,35 +36,19 @@ namespace HelloWorldWithParallel
             {
                 // 1. Single Thread
                 sw.Start();
-
-                task.StartSequence(numThreads, workerFunction);
-
+                task.StartJob(numThreads, workerFunction);
                 sw.Stop();
+                //listSingleThread[i] = sw.ElapsedMilliseconds;
 
-                listSingleThread[i] = sw.ElapsedMilliseconds;
-
-                // 2. Multi Thread Native 1
-                //sw.Start();
-
-                //task.StartMultithreadedNative(numThreads, workerFunction);
-
-                //sw.Stop();
-
-                // 3. Multi Thread Native 2
-                //sw.Start();
-
-                //task.StartMultithreadedNativeV2(numThreads, workerFunction);
-
-                //sw.Stop();
-
-                // 4. Multi Thread Native 3
+                // 2. Job in its own Thread
                 sw.Start();
-
-                task.StartWithTpl(numThreads, workerFunction);
-
+                task.StartJobInItsThread(numThreads, workerFunction);
                 sw.Stop();
 
-                listMultiThread[i] = sw.ElapsedMilliseconds;
+                // 3. Jobs in parallel
+                sw.Start();
+                task.StartJobParallel(numThreads, workerFunction);
+                sw.Stop();
 
             }
 
