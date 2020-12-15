@@ -1,0 +1,16 @@
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\HelloWorldWithPublish.exe
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\HelloWorldWithPublish.deps.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\HelloWorldWithPublish.runtimeconfig.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\HelloWorldWithPublish.runtimeconfig.dev.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\ref\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\HelloWorldWithPublish.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.csprojAssemblyReference.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.AssemblyInfoInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.AssemblyInfo.cs
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.csproj.CoreCompileInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\ref\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\HelloWorldWithPublish.genruntimeconfig.cache

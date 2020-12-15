@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0/osx.10.11-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {},
+    ".NETCoreApp,Version=v5.0/osx.10.11-x64": {
+      "HelloWorldWithPublish/1.0.0": {
+        "runtime": {
+          "HelloWorldWithPublish.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorldWithPublish/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

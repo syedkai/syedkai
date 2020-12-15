@@ -1,0 +1,16 @@
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.deps.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.runtimeconfig.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.runtimeconfig.dev.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\osx.10.11-x64\ref\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.AssemblyInfoInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.AssemblyInfo.cs
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.csproj.CoreCompileInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\ref\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.genruntimeconfig.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Release\net5.0\osx.10.11-x64\HelloWorldWithPublish.csprojAssemblyReference.cache

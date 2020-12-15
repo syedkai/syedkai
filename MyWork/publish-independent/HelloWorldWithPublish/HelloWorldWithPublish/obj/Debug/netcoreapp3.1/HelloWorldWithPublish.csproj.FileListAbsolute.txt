@@ -1,0 +1,13 @@
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Debug\netcoreapp3.1\HelloWorldWithPublish.csprojAssemblyReference.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Debug\netcoreapp3.1\HelloWorldWithPublish.AssemblyInfoInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Debug\netcoreapp3.1\HelloWorldWithPublish.AssemblyInfo.cs
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Debug\netcoreapp3.1\HelloWorldWithPublish.csproj.CoreCompileInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\netcoreapp3.1\HelloWorldWithPublish.exe
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\netcoreapp3.1\HelloWorldWithPublish.deps.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\netcoreapp3.1\HelloWorldWithPublish.runtimeconfig.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\netcoreapp3.1\HelloWorldWithPublish.runtimeconfig.dev.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\netcoreapp3.1\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\netcoreapp3.1\HelloWorldWithPublish.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Debug\netcoreapp3.1\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Debug\netcoreapp3.1\HelloWorldWithPublish.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\obj\Debug\netcoreapp3.1\HelloWorldWithPublish.genruntimeconfig.cache

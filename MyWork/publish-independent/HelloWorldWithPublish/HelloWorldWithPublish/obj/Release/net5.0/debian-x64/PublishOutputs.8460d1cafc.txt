@@ -1,0 +1,2 @@
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\publish\HelloWorldWithPublish.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Release\net5.0\publish\HelloWorldWithPublish

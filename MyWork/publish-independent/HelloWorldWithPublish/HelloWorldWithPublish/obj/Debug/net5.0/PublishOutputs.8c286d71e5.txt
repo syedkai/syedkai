@@ -1,0 +1,5 @@
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\net5.0\publish\HelloWorldWithPublish.exe
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\net5.0\publish\HelloWorldWithPublish.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\net5.0\publish\HelloWorldWithPublish.deps.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\net5.0\publish\HelloWorldWithPublish.runtimeconfig.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\publish-independent\HelloWorldWithPublish\HelloWorldWithPublish\bin\Debug\net5.0\publish\HelloWorldWithPublish.pdb

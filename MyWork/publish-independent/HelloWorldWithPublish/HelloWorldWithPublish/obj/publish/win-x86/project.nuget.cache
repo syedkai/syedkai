@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ad0nYnzvnhyubhZlCdmrUFi2RS4+wZjnNGLiEOfADoeT0qor69qAWFDnDLXLHKk7PKe2Exc2c81PpkLH7i/mfw==",
+  "success": true,
+  "projectFilePath": "C:\\SE_Project\\se-cloud-2020-2021\\MyWork\\publish-independent\\HelloWorldWithPublish\\HelloWorldWithPublish\\HelloWorldWithPublish.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\snigd\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.0\\microsoft.netcore.app.runtime.win-x86.5.0.0.nupkg.sha512",
+    "C:\\Users\\snigd\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.0\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.0.nupkg.sha512",
+    "C:\\Users\\snigd\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.0\\microsoft.aspnetcore.app.runtime.win-x86.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
