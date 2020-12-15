@@ -13,7 +13,9 @@ namespace HelloWorldWithPublish
                 Console.WriteLine("Counting {0}", i);
                 Task.Delay(1000);
             }
+            Console.WriteLine("Please enter some character to exit");
 
+            Console.ReadLine();
 
         }
     }
