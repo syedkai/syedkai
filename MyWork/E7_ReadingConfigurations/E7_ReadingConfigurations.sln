@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E7_ReadingConfigurations", "E7_ReadingConfigurations\E7_ReadingConfigurations.csproj", "{1EF30CE7-7534-4052-99FC-F38868C5E634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EF30CE7-7534-4052-99FC-F38868C5E634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF30CE7-7534-4052-99FC-F38868C5E634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF30CE7-7534-4052-99FC-F38868C5E634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF30CE7-7534-4052-99FC-F38868C5E634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE2B2DB9-7698-4A7F-A64C-7B6311C77945}
+	EndGlobalSection
+EndGlobal
