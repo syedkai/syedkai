@@ -63,6 +63,11 @@ namespace ParallelProcessing
             // Initialize our CSV class (Helper class to write to csv)
             var csv = new CSV<Result>(path);
             csv.save(records);
+
+            Console.WriteLine("***************************************************************");
+            Console.WriteLine("The expiriment is complete. See the result in output.csv file");
+            Console.WriteLine("***************************************************************");
+            Console.WriteLine("Press any key to quit.");
             Console.ReadLine();
         }
 
