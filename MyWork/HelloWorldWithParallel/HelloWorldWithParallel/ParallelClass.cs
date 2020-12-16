@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorldWithParallel
 {
-    class ParallelClass
+    public class ParallelClass
     {
         private long m_FinishCounter = 0;
 

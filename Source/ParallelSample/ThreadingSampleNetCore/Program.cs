@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
+
 
 namespace ThreadingSample
 {
@@ -35,10 +31,10 @@ namespace ThreadingSample
             //sample.StartMultithreadedNative(numThreads, workerFunction);
 
             // 3
-            //sample.StartMultithreadedNativeV2(numThreads, workerFunction);
+            sample.StartMultithreadedNativeV2(numThreads, workerFunction);
 
             // 4.
-            sample.StartWithTpl(numThreads, workerFunction);
+            //sample.StartWithTpl(numThreads, workerFunction);
 
             sw.Stop();
 
@@ -68,30 +64,6 @@ namespace ThreadingSample
             Console.ForegroundColor = ConsoleColor.Blue;
 
             Console.WriteLine("Stopped thread: {0}", Thread.CurrentThread.Name);
-        }
-
-
-        public static Task<int> AddAsync(int i, int j)
-        {
-            var result = Task<int>.Run(() =>
-            {
-                return i + j;
-            });
-
-            return result;
-        }
-
-        public static async Task DoSomething()
-        {
-            await new Task(() =>
-            {
-                Task.Delay(5000).Wait();
-            });
-
-            await Task.Run(() =>
-            {
-                Task.Delay(5000).Wait();
-            });
         }
     }
 
