@@ -12,7 +12,13 @@ namespace ParallelProcessing
 
         public void sequenceTask(int threadLoop, Action<object> callback)
         {
-            Thread.CurrentThread.Name = "Single Thread";
+            try
+            {
+                Thread.CurrentThread.Name = "Single Thread";
+            } catch (InvalidOperationException e)
+            {
+                
+            }
             for (int i = 0; i < threadLoop; i++) {
                 callback(null);
             }
