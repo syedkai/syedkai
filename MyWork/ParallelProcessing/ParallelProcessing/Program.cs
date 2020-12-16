@@ -14,7 +14,7 @@ namespace ParallelProcessing
         {
 
             var numOfThreads = 50;
-            var repetition = 10;
+            var repetition = 20;
 
             List<Result> records = new List<Result>();
             for (int i = 0; i < repetition; i++)
