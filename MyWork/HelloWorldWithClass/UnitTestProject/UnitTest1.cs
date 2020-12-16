@@ -6,8 +6,11 @@ namespace UnitTestProject
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestIsChildMessage()
         {
+            var user = new UserLibrary.User("Tom", 5);
+            string message = "Du bist ein Kind";
+            Assert.AreEqual(user.AgeMessage(), message);
         }
     }
 }
