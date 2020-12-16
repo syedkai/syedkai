@@ -1,0 +1,3 @@
+https://github.com/ddobric/neocortexapi/tree/master/NeoCortexApi/Documentation
+
+https://ieeexplore.ieee.org/document/5412408

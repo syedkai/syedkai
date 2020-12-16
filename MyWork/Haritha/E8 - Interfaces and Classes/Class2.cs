@@ -1,32 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MathNet.Numerics.Statistics;
 
 namespace E8___Interfaces_and_Classes
 {
     class Class2 : Itestinterface
     {
-        double average; int sum;
+        double m_average, m_median, m_variance; double m_sum;
         protected Result resultinstance = new Result();
         
-        public void Train(int[] data)
+        public void Train(double[] data)
         {
-            foreach (int o in data)
+            // average calculation
+            foreach (double o in data)
             {
-                sum = sum + o;
+                m_sum = m_sum + o;
             }
-            resultinstance.Average = Convert.ToDouble(sum) / data.Length;
+            m_average = Convert.ToDouble(m_sum) / data.Length;
+
+            // median calculation
+            double m_median = data.Median();
             
         }
 
         public Result GetResult()
         {
+            resultinstance.Average = m_average;
+            resultinstance.Median = m_median;
+            resultinstance.Variance = m_variance;
             return resultinstance;
-            throw new NotImplementedException();
         }
         public void SaveResult()
         {
-            Console.WriteLine("Your results have been saved successfully"); 
+            
         }
 
         public void LoadResult()

@@ -6,7 +6,7 @@ namespace E8___Interfaces_and_Classes
 {
     interface Itestinterface
     {
-        void Train(int[] data);
+        void Train(double[] data);
         Result GetResult();
         void SaveResult();
         void LoadResult();

@@ -7,13 +7,13 @@ namespace E8___Interfaces_and_Classes
     // sum calculation
     public class Class1 : Itestinterface
     {
-         public int sum; bool boolflag;
+         public double sum; bool boolflag;
          Result resultinstance = new Result();
 
               
-        public void Train(int[] dataarray)
+        public void Train(double[] dataarray)
         {
-            foreach(int o in dataarray)
+            foreach(double o in dataarray)
             {
                 sum = sum + o;
             }
@@ -38,7 +38,6 @@ namespace E8___Interfaces_and_Classes
         public void SaveResult()
         {
 
-            Console.WriteLine("Your results have been saved successfully");
         }
 
     }
