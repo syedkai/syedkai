@@ -1,43 +1,68 @@
-﻿using System;
+﻿using ParallelProcessing.model;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Threading;
 
 namespace ParallelProcessing
 {
     class Program
     {
+        private static string path = $"{Directory.GetCurrentDirectory()}/output.csv";
         static void Main(string[] args)
         {
 
-            var numOfThreads = 10;
+            var numOfThreads = 50;
+            var repetition = 10;
 
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
+            List<Result> records = new List<Result>();
+            for (int i = 0; i < repetition; i++)
+            {
+                var record = new Result();
 
-            Console.WriteLine("------------------Using Squential--------------------------");
-            Parallel parallel = new Parallel();
-            parallel.sequenceTask(numOfThreads, callback);
+                // Initialize and start the stopwatch
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
 
-            stopWatch.Stop();
-            Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
-            Console.WriteLine("--------------------------End--------------------------");
+                Console.WriteLine("------------------Using Squential--------------------------");
+                Parallel parallel = new Parallel();
+                parallel.sequenceTask(numOfThreads, callback);
 
+                stopWatch.Stop();
+                record.Sequential = stopWatch.ElapsedMilliseconds;
 
-            Console.WriteLine("------------------Using New Thread--------------------------");
-            stopWatch.Restart();
-            parallel.ownThreadTask(numOfThreads, callback);
-            stopWatch.Stop();
-            Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
-            Console.WriteLine("--------------------------End--------------------------");
+                Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
+                Console.WriteLine("--------------------------End--------------------------");
 
 
-            Console.WriteLine("------------------Using Task--------------------------");
-            stopWatch.Restart();
-            parallel.parallelTask(numOfThreads, callback);
-            stopWatch.Stop();
-            Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
-            Console.WriteLine("--------------------------End--------------------------");
+                Console.WriteLine("------------------Using New Thread--------------------------");
+                stopWatch.Restart();
+                parallel.ownThreadTask(numOfThreads, callback);
 
+                stopWatch.Stop();
+                record.Thread = stopWatch.ElapsedMilliseconds;
+
+                Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
+                Console.WriteLine("--------------------------End--------------------------");
+
+
+                Console.WriteLine("------------------Using Task--------------------------");
+                stopWatch.Restart();
+                parallel.parallelTask(numOfThreads, callback);
+                
+                stopWatch.Stop();
+                record.Parallel = stopWatch.ElapsedMilliseconds;
+
+                Console.WriteLine("Total Elapsed Time = {0} ms", stopWatch.ElapsedMilliseconds);
+                Console.WriteLine("--------------------------End--------------------------");
+
+                records.Add(record);
+            }
+
+            // Initialize our CSV class (Helper class to write to csv)
+            var csv = new CSV<Result>(path);
+            csv.save(records);
             Console.ReadLine();
         }
 
@@ -47,10 +72,11 @@ namespace ParallelProcessing
             Console.WriteLine("{0} : Start Thread name {1}", Thread.CurrentThread.ManagedThreadId,Thread.CurrentThread.Name);
             Console.ResetColor();
 
-            long count = 99999999;
+            Random random = new Random();
+            long count = 9999;
             long total = 0;
             for (int i = 0; i < count; i++) {
-                total += (i + 1) * count / 50*16;
+                total += random.Next(100);
             }
 
             if (onComplete != null)
