@@ -2,6 +2,7 @@
 
 namespace Interface_Sample
 {
+    
     class Program
     {
         static void Main(string[] args)
@@ -11,9 +12,9 @@ namespace Interface_Sample
             double[] data = new double[] { 1.1, 2.2, 3.3, 4.4, 5.5 };
             Sample1(data);
 
-            Class1_SumAlgo sum1 = new Class1_SumAlgo();
+           // Class1_SumAlgo sum1 = new Class1_SumAlgo();
 
-            Sample2(sum1, data);
+            //Sample2(sum1, data);
 
             
 
@@ -31,6 +32,7 @@ namespace Interface_Sample
             //double[] data = new double[] { 1.1, 2.2, 3.3, 4.4, 5.5 };
             Class1_SumAlgo sum = new Class1_SumAlgo();
             sum.Train(data);
+
             var sum_res = sum.GetResult();
 
             Console.WriteLine(sum_res);
@@ -50,6 +52,9 @@ namespace Interface_Sample
             alg.Train(data);
             var result = alg.GetResult();
             Console.WriteLine(result);
+            alg.save();
+            alg.load();
+            //Console.WriteLine();
         }
     }
 }

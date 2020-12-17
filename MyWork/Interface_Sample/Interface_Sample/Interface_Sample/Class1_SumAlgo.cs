@@ -25,5 +25,16 @@ namespace Interface_Sample
                 this.m_sum += num;
             }
         }
+
+        public void save()
+        {
+            //varr = m_sum;
+           // return varr;
+        }
+
+        public void load()
+        {
+           // m_sum = varr;
+        }
     }
 }

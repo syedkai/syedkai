@@ -17,5 +17,9 @@ namespace Interface_Sample
         /// </summary>
 
         void Train(double[] data);
+
+        void save();
+
+        void load();
     }
 }
