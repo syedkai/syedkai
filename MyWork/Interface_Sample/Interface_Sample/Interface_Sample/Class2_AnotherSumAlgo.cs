@@ -13,10 +13,10 @@ namespace Interface_Sample
     {
         private double m_sum;
 
-        public double sum { get; set; }
+        public double avg { get; set; }
         public Class2_AnotherSumAlgo()
         {
-            this.m_sum = 5;
+            this.m_sum = 0;
         }
 
         public object GetResult()
@@ -35,12 +35,18 @@ namespace Interface_Sample
 
         public void save()
         {
+
+            Class2_AnotherSumAlgo obj_sum = new Class2_AnotherSumAlgo();
+            obj_sum.avg = this.m_sum;
             var xs = new XmlSerializer(typeof(Class2_AnotherSumAlgo));
 
             using ( TextWriter text =  new StreamWriter(@"C:\Sweta'sDisk\FUAS_official\Lectures_notes_IT\SW_Project\SE_Repo\MyWork\Interface_Sample\Saved_result.xml") )
             {
-                xs.Serialize(text, this);
+                
+                xs.Serialize(text, obj_sum);
+                text.Close();
             }
+            
         }
 
         public void load()
@@ -49,7 +55,7 @@ namespace Interface_Sample
             using ( TextReader load_res = new StreamReader(@"C:\Sweta'sDisk\FUAS_official\Lectures_notes_IT\SW_Project\SE_Repo\MyWork\Interface_Sample\Saved_result.xml"))
             {
                 var tempRes = (Class2_AnotherSumAlgo)xs.Deserialize(load_res);
-                m_sum = tempRes.m_sum;
+                m_sum = tempRes.avg;
                 load_res.Close();
 
                 Console.WriteLine("m_sum read value is: " + this.m_sum);

@@ -10,16 +10,16 @@ namespace Interface_Sample
             Console.WriteLine("Two different implementation for Sum !");
 
             double[] data = new double[] { 1.1, 2.2, 3.3, 4.4, 5.5 };
-            Sample1(data);
+            //Sample1(data);
 
-           // Class1_SumAlgo sum1 = new Class1_SumAlgo();
+            Class1_SumAlgo sum1 = new Class1_SumAlgo();
 
-            //Sample2(sum1, data);
+            Sample2(sum1, data);
 
             
 
-            Class2_AnotherSumAlgo avg_sum = new Class2_AnotherSumAlgo();
-            Sample2(avg_sum, data);
+            /*Class2_AnotherSumAlgo avg_sum = new Class2_AnotherSumAlgo();
+            Sample2(avg_sum, data);*/
 
             Console.ReadLine();
 
@@ -27,7 +27,7 @@ namespace Interface_Sample
         /// <summary>
         /// Demonstarte how to implement two classes to implement math algo
         /// </summary>
-        private static void Sample1(double[] data)
+        /*private static void Sample1(double[] data)
         {
             //double[] data = new double[] { 1.1, 2.2, 3.3, 4.4, 5.5 };
             Class1_SumAlgo sum = new Class1_SumAlgo();
@@ -42,7 +42,7 @@ namespace Interface_Sample
             var avg_res = avg.GetResult();
 
             Console.WriteLine(avg_res);
-        }
+        }*/
 
         /// <summary>
         /// Demonstrate how to use interface
@@ -54,7 +54,6 @@ namespace Interface_Sample
             Console.WriteLine(result);
             alg.save();
             alg.load();
-            //Console.WriteLine();
         }
     }
 }
