@@ -1,0 +1,19 @@
+{
+  "fontSize": "12",
+  "color": "yellow",
+  "Setting1": "Hello :)",
+  "Setting2": 234,
+  "Setting3": 22.21,
+
+  "NewaSubSettings": {
+    "Setting1": "Hello from sub settings :)",
+    "Setting2": 123444,
+    "Setting3": 777.21
+  },
+
+  "MySetting": {
+    "SomeInt": "77",
+    "SomeString": "Hello :)",
+    "SomeFloat": 12.1
+  }
+}
