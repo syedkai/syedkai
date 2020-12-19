@@ -28,8 +28,8 @@ namespace ConfigSample
 
            .SetBasePath(Directory.GetCurrentDirectory())
            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-           .AddCommandLine(args)
-           .AddEnvironmentVariables();
+           .AddCommandLine(args);
+          // .AddEnvironmentVariables();
 
 
             IConfigurationRoot configuration = builder.Build();

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConfigurationE7": {
+      "commandName": "Project",
+      "commandLineArgs": "--color yellow --fontsize 10 --state sleeping"
+    }
+  }
+}
