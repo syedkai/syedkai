@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "O1dzDYyrODRdOM6CLqlInOmX+PFpQmfJHRvw7JLBKtK9a4YNPwjvp49C5gl+0GY/WjcPTLnRjHKKxBj9j481Pw==",
+  "success": true,
+  "projectFilePath": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\ParallelProcessing\\ParallelProcessing\\ParallelProcessing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\javai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\javai\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

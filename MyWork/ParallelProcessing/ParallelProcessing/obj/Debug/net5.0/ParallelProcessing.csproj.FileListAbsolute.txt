@@ -1,0 +1,16 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\net5.0\ParallelProcessing.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\net5.0\ParallelProcessing.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\net5.0\ParallelProcessing.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\net5.0\ParallelProcessing.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\net5.0\ParallelProcessing.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\net5.0\ref\ParallelProcessing.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\net5.0\ParallelProcessing.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ref\ParallelProcessing.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\net5.0\ParallelProcessing.genruntimeconfig.cache

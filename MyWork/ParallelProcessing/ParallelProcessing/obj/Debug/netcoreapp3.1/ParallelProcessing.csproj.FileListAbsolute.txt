@@ -1,0 +1,13 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\netcoreapp3.1\ParallelProcessing.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\netcoreapp3.1\ParallelProcessing.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\netcoreapp3.1\ParallelProcessing.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\netcoreapp3.1\ParallelProcessing.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\netcoreapp3.1\ParallelProcessing.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\bin\Debug\netcoreapp3.1\ParallelProcessing.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\netcoreapp3.1\ParallelProcessing.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\netcoreapp3.1\ParallelProcessing.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\netcoreapp3.1\ParallelProcessing.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\netcoreapp3.1\ParallelProcessing.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\netcoreapp3.1\ParallelProcessing.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\netcoreapp3.1\ParallelProcessing.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\ParallelProcessing\ParallelProcessing\obj\Debug\netcoreapp3.1\ParallelProcessing.genruntimeconfig.cache
