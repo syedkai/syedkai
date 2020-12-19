@@ -6,15 +6,12 @@ namespace HelloWorldWithClass
     {
         static void Main(string[] args)
         {
-            int b = 0;
+            MyCount count = new MyCount();
 
-            HelloD d = new HelloD();
+            double answer = count.classArea(5, 9);
 
-            int e = d.ForLoop();
-            for (int i = a; i <= a; i++)
-            {
-                Console.WriteLine("HelloWorldClass");
-            }
+            Console.WriteLine($"Here is the answer, the area of a circle is: { answer}");
+
         }
     }
 }
