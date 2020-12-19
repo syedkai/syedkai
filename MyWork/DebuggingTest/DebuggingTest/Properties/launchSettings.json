@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DebuggingTest": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value"
+      }
+    }
+  }
+}
