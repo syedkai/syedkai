@@ -6,7 +6,7 @@ namespace publish_independent
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World for publish independent!");
+            Console.WriteLine("Hello World!");
         }
     }
 }

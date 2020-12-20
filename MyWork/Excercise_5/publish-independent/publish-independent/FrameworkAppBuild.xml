@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RuntimeIdentifiers>
+    win10-x64;osx.10.11-x64;debian-x64
+</RuntimeIdentifiers>
+
