@@ -1,4 +1,3 @@
-C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\HelloSabeenWithClass\bin\Debug\net5.0\SabeensLibrary.exe
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\HelloSabeenWithClass\bin\Debug\net5.0\HelloSabeenWithClass.exe
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\HelloSabeenWithClass\bin\Debug\net5.0\HelloSabeenWithClass.deps.json
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\HelloSabeenWithClass\bin\Debug\net5.0\HelloSabeenWithClass.runtimeconfig.json

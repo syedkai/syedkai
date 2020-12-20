@@ -1,7 +1,4 @@
-C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\bin\Debug\netcoreapp3.1\SabeensLibrary.exe
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\bin\Debug\netcoreapp3.1\SabeensLibrary.deps.json
-C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\bin\Debug\netcoreapp3.1\SabeensLibrary.runtimeconfig.json
-C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\bin\Debug\netcoreapp3.1\SabeensLibrary.runtimeconfig.dev.json
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\bin\Debug\netcoreapp3.1\SabeensLibrary.dll
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\bin\Debug\netcoreapp3.1\SabeensLibrary.pdb
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\obj\Debug\netcoreapp3.1\SabeensLibrary.csprojAssemblyReference.cache
@@ -10,4 +7,3 @@ C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\obj\
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\obj\Debug\netcoreapp3.1\SabeensLibrary.csproj.CoreCompileInputs.cache
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\obj\Debug\netcoreapp3.1\SabeensLibrary.dll
 C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\obj\Debug\netcoreapp3.1\SabeensLibrary.pdb
-C:\SE Project 2020\Sabeen-Javaid\MyWork\HelloSabeenWithClass\SabeensLibrary\obj\Debug\netcoreapp3.1\SabeensLibrary.genruntimeconfig.cache
