@@ -11,7 +11,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.runtimeconfig.json" target="lib\net5.0\IndexLibrary.runtimeconfig.json" />
     <file src="C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.dll" target="lib\net5.0\IndexLibrary.dll" />
   </files>
 </package>
