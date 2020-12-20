@@ -26,6 +26,8 @@ namespace HelloWorldWithParallel
 
         /// <summary>
         /// Execute each job in its own thread
+        /// Thread support only one job in each thread.
+        /// It is how we manipulate the Threads on OS.
         /// </summary>
         /// <param name="threads"></param>
         /// <param name="func"></param>
@@ -55,34 +57,28 @@ namespace HelloWorldWithParallel
 
         /// <summary>
         /// Execute Jobs in Parallel
+        /// by using Tasks, we can run Jobs asynchronously.
         /// </summary>
         /// <param name="threads"></param>
         /// <param name="func"></param>
         public void StartJobParallel(int threads, Action<object> func)
         {
-            // create a list of threads
-            List<Thread> tList = new List<Thread>();
+            // create a list of tasks
+            List<Task> tList = new List<Task>();
 
-            for(int i = 0; i < threads; i++)
+            for (int i = 0; i < threads; i++)
             {
-                var thread = new Thread(new ParameterizedThreadStart(func));
-                thread.Name = i.ToString();
-                tList.Add(thread);
+                var t = new Task(func, new Action<string>(OnThreadFinished));
+                tList.Add(t);
             }
 
-            // start threads in List
-            foreach(var item in tList)
+            // start tasks in List
+            foreach(var t in tList)
             {
-                item.Start(new Action<String>(OnThreadFinished));
+                t.Start();
             }
 
-            while (true)
-            {
-                if (Interlocked.Read(ref m_FinishCounter) == threads)
-                    break;
-                else
-                    Thread.Sleep(500);
-            }
+            Task.WaitAll(tList.ToArray());
         }
     }
 }
