@@ -1,0 +1,16 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\ref\IndexLibrary.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\bin\Debug\net5.0\IndexLibrary.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\ref\IndexLibrary.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\WorkingWithNuget\IndexLibrary\obj\Debug\net5.0\IndexLibrary.genruntimeconfig.cache

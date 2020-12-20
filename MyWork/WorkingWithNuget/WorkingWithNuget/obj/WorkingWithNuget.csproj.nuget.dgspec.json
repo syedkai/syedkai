@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\WorkingWithNuget.csproj": {}
+  },
+  "projects": {
+    "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\WorkingWithNuget.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\WorkingWithNuget.csproj",
+        "projectName": "WorkingWithNuget",
+        "projectPath": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\WorkingWithNuget.csproj",
+        "packagesPath": "C:\\Users\\javai\\.nuget\\packages\\",
+        "outputPath": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\NuGet.Config",
+          "C:\\Users\\javai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IndexLibrary": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

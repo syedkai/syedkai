@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WorkingWithNuget/1.0.0": {
+        "dependencies": {
+          "IndexLibrary": "1.0.1"
+        },
+        "runtime": {
+          "WorkingWithNuget.dll": {}
+        }
+      },
+      "IndexLibrary/1.0.1": {
+        "runtime": {
+          "lib/net5.0/IndexLibrary.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WorkingWithNuget/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IndexLibrary/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z3cEZH2P8nCtkOOnMyXtsi9oL8UGNNWfIHqEHMcp1/o9jSZ750GvxXvj92zpf0ZP/bnv9L/rwywiipYLH7845A==",
+      "path": "indexlibrary/1.0.1",
+      "hashPath": "indexlibrary.1.0.1.nupkg.sha512"
+    }
+  }
+}

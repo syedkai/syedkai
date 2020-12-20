@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gdW57PbRAsmtrtL4j4ZBJpYT0jlQNAg4hXN74rVs2yY/Vgk/1j4oBTJyOEKNxS2bUQdnLf6yGsrZG5VS3rrMgw==",
+  "success": true,
+  "projectFilePath": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\WorkingWithNuget.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\javai\\.nuget\\packages\\indexlibrary\\1.0.1\\indexlibrary.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

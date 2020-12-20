@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "IndexLibrary/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IndexLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IndexLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IndexLibrary/1.0.1": {
+      "sha512": "z3cEZH2P8nCtkOOnMyXtsi9oL8UGNNWfIHqEHMcp1/o9jSZ750GvxXvj92zpf0ZP/bnv9L/rwywiipYLH7845A==",
+      "type": "package",
+      "path": "indexlibrary/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "indexlibrary.1.0.1.nupkg.sha512",
+        "indexlibrary.nuspec",
+        "lib/net5.0/IndexLibrary.dll",
+        "lib/net5.0/IndexLibrary.runtimeconfig.json"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "IndexLibrary >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\javai\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\WorkingWithNuget.csproj",
+      "projectName": "WorkingWithNuget",
+      "projectPath": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\WorkingWithNuget.csproj",
+      "packagesPath": "C:\\Users\\javai\\.nuget\\packages\\",
+      "outputPath": "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\WorkingWithNuget\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\NuGet.Config",
+        "C:\\Users\\javai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\SE Project 2020\\Sabeen-Javaid\\MyWork\\WorkingWithNuget\\nuget": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "IndexLibrary": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
