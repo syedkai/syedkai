@@ -29,6 +29,10 @@ namespace Interface_Sample
             {
                 this.m_sum += num;
             }
+            if (this.m_sum > 100)
+                this.m_sum = 1;
+            else
+                this.m_sum = 0;
         }
 
         public void save()
