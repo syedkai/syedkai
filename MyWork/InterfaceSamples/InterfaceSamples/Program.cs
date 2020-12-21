@@ -78,14 +78,14 @@ namespace InterfaceSamples
         /// <summary>
         /// Demonstrates how to use interface.
         /// </summary>
-        private static void Sample2(IMyMLAlgorithm alg, double[] data)
+        /*private static void Sample2(IMyMLAlgorithm alg, double[] data)
         {
             alg.Train(data);
 
             var result = alg.GetResult();
             
             Console.WriteLine(result);
-        }
+        }*/
 
         /// <summary>
         /// Downloads all data from somewhere => dataProvider of type IData
@@ -115,6 +115,18 @@ namespace InterfaceSamples
 
             Console.WriteLine(result);
         }
+
+
+        private static void Sample2(IMyMLAlgorithm alg, double[] data)
+        {
+            alg.Train(data);
+            var result = alg.GetResult();
+            Console.WriteLine(result);
+            alg.save();
+            alg.load();
+        }
+
+
 
     }
 }

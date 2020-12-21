@@ -21,6 +21,12 @@ namespace InterfaceSamples
         /// </summary>
         /// <param name="data">Trainng data</param>
         void Train(double[] data);
+
+
+
+        void save();
+
+        void load();
     }
 
 }
