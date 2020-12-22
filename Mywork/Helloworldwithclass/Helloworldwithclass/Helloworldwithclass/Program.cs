@@ -6,14 +6,15 @@ namespace Helloworldwithclass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            int input1 = Convert.ToInt32(Console.ReadLine());
-            int input2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("My library test!!");
+            int input1 = Convert.ToInt16(Console.ReadLine());
+            int input2 = Convert.ToInt16(Console.ReadLine());
             Fibonaccigenerator serise = new Fibonaccigenerator();
 
-            var fibonacciserise = serise.SerieseGenrator(input1, input2);
+            int[] vs = serise.SerieseGenrator(input1, input2);
+            int[] fibonacciserise = vs;
 
-            Console.WriteLine(fibonacciserise);
+            Array.ForEach(fibonacciserise, Console.WriteLine);
         }
     }
 }
