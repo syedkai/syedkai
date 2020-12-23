@@ -1,0 +1,16 @@
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\net5.0\ParallelThreadsAndTasks.exe
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\net5.0\ParallelThreadsAndTasks.deps.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\net5.0\ParallelThreadsAndTasks.runtimeconfig.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\net5.0\ParallelThreadsAndTasks.runtimeconfig.dev.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\net5.0\ParallelThreadsAndTasks.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\net5.0\ref\ParallelThreadsAndTasks.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\net5.0\ParallelThreadsAndTasks.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.csprojAssemblyReference.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.AssemblyInfoInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.AssemblyInfo.cs
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.csproj.CoreCompileInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ref\ParallelThreadsAndTasks.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\net5.0\ParallelThreadsAndTasks.genruntimeconfig.cache

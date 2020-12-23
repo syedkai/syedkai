@@ -1,0 +1,13 @@
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\netcoreapp3.1\ParallelThreadsAndTasks.csprojAssemblyReference.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\netcoreapp3.1\ParallelThreadsAndTasks.AssemblyInfoInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\netcoreapp3.1\ParallelThreadsAndTasks.AssemblyInfo.cs
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\netcoreapp3.1\ParallelThreadsAndTasks.csproj.CoreCompileInputs.cache
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\netcoreapp3.1\ParallelThreadsAndTasks.exe
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\netcoreapp3.1\ParallelThreadsAndTasks.deps.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\netcoreapp3.1\ParallelThreadsAndTasks.runtimeconfig.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\netcoreapp3.1\ParallelThreadsAndTasks.runtimeconfig.dev.json
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\netcoreapp3.1\ParallelThreadsAndTasks.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\bin\Debug\netcoreapp3.1\ParallelThreadsAndTasks.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\netcoreapp3.1\ParallelThreadsAndTasks.dll
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\netcoreapp3.1\ParallelThreadsAndTasks.pdb
+C:\SE_Project\se-cloud-2020-2021\MyWork\ParallelThreadsAndTasks\ParallelThreadsAndTasks\obj\Debug\netcoreapp3.1\ParallelThreadsAndTasks.genruntimeconfig.cache
