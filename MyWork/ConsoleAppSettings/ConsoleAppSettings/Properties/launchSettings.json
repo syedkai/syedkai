@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleAppSettings": {
+      "commandName": "Project",
+      "commandLineArgs": "--Setting xy"
+    }
+  }
+}
