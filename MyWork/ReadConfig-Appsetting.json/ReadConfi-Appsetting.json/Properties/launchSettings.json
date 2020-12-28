@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ReadConfig-Appsetting.json": {
+      "commandName": "Project"
+    }
+  }
+}
