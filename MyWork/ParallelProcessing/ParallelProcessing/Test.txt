@@ -1,0 +1,70 @@
+.NET5.0
+No of Processors : 7
+
+
+Approch: Sequence Threading
+Number of Threads : 50
+448
+556
+444
+446
+
+Number of Threads : 100
+1142
+1357
+1256
+1103
+
+Number of Threads : 150
+1974
+2276
+1878
+1785
+1727
+1649
+
+
+Approch: Parrallel Threading
+Number of Threads : 50
+
+
+553
+579
+813
+904
+
+Number of Threads : 100
+751
+743
+732
+729
+
+Number of Threads : 150
+
+852
+862
+861
+861
+
+Approch: Concurrent Threading
+Number of Threads : 50
+
+571
+609
+616
+922
+602
+732
+
+Number of Threads : 100
+753
+743
+731
+747
+
+Number of Threads : 150
+
+855
+859
+872
+864

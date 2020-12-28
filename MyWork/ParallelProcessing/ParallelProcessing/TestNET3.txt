@@ -1,0 +1,60 @@
+.NET3.1
+No of Processors : 7
+
+
+Approch: Sequence Threading
+Number of Threads : 50
+671
+686
+636
+440
+640
+Number of Threads : 100
+
+1515
+1649
+1201
+952
+Number of Threads : 150
+2197
+2473
+2214
+1780
+
+
+Approch: Parralel Threading
+Number of Threads : 50
+610
+609
+618
+641
+Number of Threads : 100
+727
+743
+723
+740
+729
+Number of Threads : 150
+853
+855
+867
+853
+851
+
+Approch: Concurrent Threading
+Number of Threads : 50
+
+590
+602
+612
+613
+Number of Threads : 100
+740
+740
+749
+735
+Number of Threads : 150
+869
+869
+847
+864
