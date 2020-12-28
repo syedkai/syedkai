@@ -17,4 +17,9 @@
     <ProjectReference Include="..\Background_Subraction\Background_Subraction.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Input\" />
+    <Folder Include="Output\" />
+  </ItemGroup>
+
 </Project>
