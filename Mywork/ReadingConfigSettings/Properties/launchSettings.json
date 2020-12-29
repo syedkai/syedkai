@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReadingConfigSettings": {
+      "commandName": "Project",
+      "commandLineArgs": "--aspect practice"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+
+  "Background": "Asthetic",
+  "Font-Family": "New_Roman",
+  "Setting1": 12.3,
+  "Setting2": 45.6,
+  "Setting3": 23.7,
+
+
+  "SubSettings": {
+    "Setting1": "starter",
+    "Setting2": "second",
+    "Setting3": 123.45
+  }
+
+}
