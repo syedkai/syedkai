@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\bin\Debug\netcoreapp3.1\HelloWorldWithClass.exe
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\bin\Debug\netcoreapp3.1\HelloWorldWithClass.deps.json
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\bin\Debug\netcoreapp3.1\HelloWorldWithClass.runtimeconfig.json
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\bin\Debug\netcoreapp3.1\HelloWorldWithClass.runtimeconfig.dev.json
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\bin\Debug\netcoreapp3.1\HelloWorldWithClass.dll
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\bin\Debug\netcoreapp3.1\HelloWorldWithClass.pdb
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\obj\Debug\netcoreapp3.1\HelloWorldWithClass.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\obj\Debug\netcoreapp3.1\HelloWorldWithClass.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\obj\Debug\netcoreapp3.1\HelloWorldWithClass.AssemblyInfo.cs
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\obj\Debug\netcoreapp3.1\HelloWorldWithClass.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\obj\Debug\netcoreapp3.1\HelloWorldWithClass.dll
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\obj\Debug\netcoreapp3.1\HelloWorldWithClass.pdb
+C:\Users\hp\Desktop\HelloWorldWithClass\HelloWorldWithClass\HelloWorldWithClass\obj\Debug\netcoreapp3.1\HelloWorldWithClass.genruntimeconfig.cache
