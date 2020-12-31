@@ -6,6 +6,8 @@ namespace InterfaceEmplementation
 {
     interface ISeriseInterface
     {
-        public int[] Serise();
+        public (int[], int) Serise();
+
+        public void SavingOutput(int[] serise, int iteration);
     }
 }

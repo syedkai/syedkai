@@ -9,7 +9,10 @@ namespace InterfaceEmplementation
             Console.WriteLine("Hello World!");
 
             EvenNumber even = new EvenNumber();
-            int[] evenserise = even.Serise();
+            var evenreturn = even.Serise();
+            int[] evenserise = evenreturn.Item1;
+            int eveniter = evenreturn.Item2;
+            even.SavingOutput(evenserise, eveniter);
             Console.Write("This is an EVEN serise : ");
             foreach (var item in evenserise)
             {
@@ -17,15 +20,22 @@ namespace InterfaceEmplementation
             }
             Console.WriteLine("");
             
+
+
+            
             
             OddNumber odd = new OddNumber();
-            int[] oddserise = odd.Serise();
+            var oddreturn = odd.Serise();
+            int[] oddserise = oddreturn.Item1;
+            int odditer = oddreturn.Item2;
+            odd.SavingOutput(oddserise, odditer);
             Console.Write("This is a ODD serise : ");
             foreach (var item in oddserise)
             {
                 Console.Write("{0} ", item);
             }
             Console.WriteLine("");
+            
         }
     }
 }
