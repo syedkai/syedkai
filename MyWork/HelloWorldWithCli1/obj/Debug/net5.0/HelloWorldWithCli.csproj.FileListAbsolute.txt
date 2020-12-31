@@ -1,0 +1,16 @@
+C:\Users\hp\SE project\HelloWorldWithCli\bin\Debug\net5.0\HelloWorldWithCli.exe
+C:\Users\hp\SE project\HelloWorldWithCli\bin\Debug\net5.0\HelloWorldWithCli.deps.json
+C:\Users\hp\SE project\HelloWorldWithCli\bin\Debug\net5.0\HelloWorldWithCli.runtimeconfig.json
+C:\Users\hp\SE project\HelloWorldWithCli\bin\Debug\net5.0\HelloWorldWithCli.runtimeconfig.dev.json
+C:\Users\hp\SE project\HelloWorldWithCli\bin\Debug\net5.0\HelloWorldWithCli.dll
+C:\Users\hp\SE project\HelloWorldWithCli\bin\Debug\net5.0\ref\HelloWorldWithCli.dll
+C:\Users\hp\SE project\HelloWorldWithCli\bin\Debug\net5.0\HelloWorldWithCli.pdb
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.csprojAssemblyReference.cache
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.AssemblyInfoInputs.cache
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.AssemblyInfo.cs
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.csproj.CoreCompileInputs.cache
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.dll
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\ref\HelloWorldWithCli.dll
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.pdb
+C:\Users\hp\SE project\HelloWorldWithCli\obj\Debug\net5.0\HelloWorldWithCli.genruntimeconfig.cache
