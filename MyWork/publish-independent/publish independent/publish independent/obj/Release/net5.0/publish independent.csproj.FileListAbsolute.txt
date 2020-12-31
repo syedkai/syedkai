@@ -1,0 +1,16 @@
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\bin\Release\net5.0\publish independent.exe
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\bin\Release\net5.0\publish independent.deps.json
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\bin\Release\net5.0\publish independent.runtimeconfig.json
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\bin\Release\net5.0\publish independent.runtimeconfig.dev.json
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\bin\Release\net5.0\publish independent.dll
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\bin\Release\net5.0\ref\publish independent.dll
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\bin\Release\net5.0\publish independent.pdb
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.AssemblyInfo.cs
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.dll
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\ref\publish independent.dll
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.pdb
+C:\Users\hp\Desktop\publish independent\publish independent\publish independent\obj\Release\net5.0\publish independent.genruntimeconfig.cache
