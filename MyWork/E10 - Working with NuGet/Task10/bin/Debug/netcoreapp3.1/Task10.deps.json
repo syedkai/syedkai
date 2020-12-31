@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Task10/1.0.0": {
+        "dependencies": {
+          "Calculation": "1.0.1"
+        },
+        "runtime": {
+          "Task10.dll": {}
+        }
+      },
+      "Calculation/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/Calculation.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calculation/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kjWkTyzdWqIfsrZz5l5r4PJis23iYWxntOgnKA0zZloZKOY9N4Nshqu8Hs/HuE2g7hLzv0nVNnrW463aRDOwuw==",
+      "path": "calculation/1.0.1",
+      "hashPath": "calculation.1.0.1.nupkg.sha512"
+    }
+  }
+}
