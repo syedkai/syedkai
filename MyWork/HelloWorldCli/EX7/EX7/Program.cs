@@ -11,12 +11,19 @@ namespace EX7
 
         static void Main(string[] args)
         {
-            ConfigurationBuilder builder = new ConfigurationBuilder();
-            builder.SetBasePath(Directory.GetCurrentDirectory());
-            builder.AddJsonFile("appsettings.json");
+
+            var builder = new ConfigurationBuilder()
+           .SetBasePath(Directory.GetCurrentDirectory())
+           .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+           .AddEnvironmentVariables();
+            if (args != null)         
+            {               
+                builder.AddCommandLine(args);
+            }
+
             IConfiguration config = builder.Build();
-            String Num = config["Setting1"];
-            Console.WriteLine(config["Setting1"]);
+            String setting1 = config["Setting1"];
+            Console.WriteLine(setting1);
             Console.ReadLine();
         }
     }
