@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>SimpleLibrary</PackageId>
+    <Description>This is used for multiplication of two numbers.</Description>
+  </PropertyGroup>
+
+</Project>
