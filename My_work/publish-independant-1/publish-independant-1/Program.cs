@@ -6,7 +6,7 @@ namespace publish_independant_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Publishing independantly");
+            Console.WriteLine("Dependant publishing");
             Console.ReadLine();
         }
     }
