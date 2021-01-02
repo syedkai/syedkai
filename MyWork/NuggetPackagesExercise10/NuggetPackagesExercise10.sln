@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuggetPackagesExercise10", "NuggetPackagesExercise10.csproj", "{29FA3075-0E02-484D-953A-D62879D89BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{158D0D26-A8A3-483E-90FA-0730AC50A358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nugget", "Nugget", "{F36AE93F-AE76-48DB-8926-6E618C285E09}"
+	ProjectSection(SolutionItems) = preProject
+		MyLibrary\bin\Debug\MyLibrary.1.0.0.nupkg = MyLibrary\bin\Debug\MyLibrary.1.0.0.nupkg
+		MyLibrary\bin\Debug\MyLibrary.1.0.1.nupkg = MyLibrary\bin\Debug\MyLibrary.1.0.1.nupkg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FA3075-0E02-484D-953A-D62879D89BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FA3075-0E02-484D-953A-D62879D89BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FA3075-0E02-484D-953A-D62879D89BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FA3075-0E02-484D-953A-D62879D89BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158D0D26-A8A3-483E-90FA-0730AC50A358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158D0D26-A8A3-483E-90FA-0730AC50A358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158D0D26-A8A3-483E-90FA-0730AC50A358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158D0D26-A8A3-483E-90FA-0730AC50A358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46AA5241-AEEE-4C4B-9FFF-DCD0052FB548}
+	EndGlobalSection
+EndGlobal

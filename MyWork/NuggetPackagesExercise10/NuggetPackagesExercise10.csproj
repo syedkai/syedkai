@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="MyLibrary" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MyLibrary\MyLib.cs" />
+    <Compile Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfo.cs" />
+    <Compile Remove="MyLibrary\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MyLibrary\.DS_Store" />
+    <None Remove="MyLibrary\bin\.DS_Store" />
+    <None Remove="MyLibrary\bin\Debug\MyLibrary.1.0.0.nupkg" />
+    <None Remove="MyLibrary\bin\Debug\net5.0\MyLibrary.deps.json" />
+    <None Remove="MyLibrary\bin\Debug\net5.0\MyLibrary.pdb" />
+    <None Remove="MyLibrary\bin\Debug\net5.0\MyLibrary.dll" />
+    <None Remove="MyLibrary\bin\Debug\net5.0\ref\MyLibrary.dll" />
+    <None Remove="MyLibrary\obj\MyLibrary.csproj.nuget.dgspec.json" />
+    <None Remove="MyLibrary\obj\MyLibrary.csproj.nuget.g.props" />
+    <None Remove="MyLibrary\obj\project.nuget.cache" />
+    <None Remove="MyLibrary\obj\MyLibrary.csproj.nuget.g.targets" />
+    <None Remove="MyLibrary\obj\project.assets.json" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.pdb" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.dll" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.csprojAssemblyReference.cache" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.assets.cache" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfoInputs.cache" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.csproj.FileListAbsolute.txt" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\MyLibrary.csproj.CoreCompileInputs.cache" />
+    <None Remove="MyLibrary\obj\Debug\net5.0\ref\MyLibrary.dll" />
+  </ItemGroup>
+</Project>
