@@ -1,7 +1,7 @@
 ﻿using ClassRefLib;
 using System;
 
-namespace HelloWorldWithClass
+namespace HelloWorldWithClassRef
 {
     class Program
     {
