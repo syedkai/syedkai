@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassRefLib;
+using System;
 
 namespace HelloWorldWithClass
 {
@@ -6,7 +7,9 @@ namespace HelloWorldWithClass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Display ob = new Display();
+            ob.show();
+
         }
     }
 }
