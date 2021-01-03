@@ -6,25 +6,23 @@ namespace InterfaceAndClasses
 {
     public class AverageMedVar : IMyInterface
     {
-        private double m_Sum;
-        public AverageMedVar()
-        {
-            this.m_Sum = 0;
-        }
         public object GetResult()
         {
-            return this.m_Sum;
+            throw new NotImplementedException();
         }
-
-        public void Train(double[] data)
+          
+        public double Train(double[] data)
         {
-            foreach (var value in data)
-            {
-                this.m_Sum += value;
+            double m_Sum = 0;
 
+            for (int i = 0; i < data.Length; i++)
+            {
+                m_Sum += data[i];
             }
 
-            m_Sum = m_Sum / data.Length; 
+            double average = m_Sum / data.Length;
+
+            return average;
         }
     }
 }

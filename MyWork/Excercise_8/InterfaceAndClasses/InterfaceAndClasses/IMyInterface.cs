@@ -13,11 +13,8 @@ namespace InterfaceAndClasses
         /// Get and print result
         object GetResult();
 
-        /// <summary>
-        /// Model Training
-        /// </summary>
-        /// <param name="data"></param>
-        void Train(double[] data);
+        
+        double Train(double[] data);
     }
 
 }
