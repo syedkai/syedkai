@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>InterfaceTrial2.Program</StartupObject>
+    <StartupObject>InterfaceTrial2.Result</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

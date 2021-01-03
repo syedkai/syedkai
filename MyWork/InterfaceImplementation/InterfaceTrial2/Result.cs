@@ -21,7 +21,16 @@ namespace InterfaceTrial2
             }
 
             average = sum / data.Length;
+            Console.WriteLine(average);
 
+
+        }
+
+        static void Main()
+        {
+
+            Result obj = new Result();
+            obj.train2(new int[] { 10, 20, 30, 50 });
 
         }
 
