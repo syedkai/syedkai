@@ -1,0 +1,13 @@
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\bin\Debug\netcoreapp3.1\InterfacesDemo.exe
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\bin\Debug\netcoreapp3.1\InterfacesDemo.deps.json
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\bin\Debug\netcoreapp3.1\InterfacesDemo.runtimeconfig.json
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\bin\Debug\netcoreapp3.1\InterfacesDemo.runtimeconfig.dev.json
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\bin\Debug\netcoreapp3.1\InterfacesDemo.dll
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\bin\Debug\netcoreapp3.1\InterfacesDemo.pdb
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\obj\Debug\netcoreapp3.1\InterfacesDemo.csprojAssemblyReference.cache
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\obj\Debug\netcoreapp3.1\InterfacesDemo.AssemblyInfoInputs.cache
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\obj\Debug\netcoreapp3.1\InterfacesDemo.AssemblyInfo.cs
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\obj\Debug\netcoreapp3.1\InterfacesDemo.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\obj\Debug\netcoreapp3.1\InterfacesDemo.dll
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\obj\Debug\netcoreapp3.1\InterfacesDemo.pdb
+C:\Users\Microsoft Windows\source\repos\InterfacesDemo\InterfacesDemo\obj\Debug\netcoreapp3.1\InterfacesDemo.genruntimeconfig.cache
