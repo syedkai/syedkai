@@ -1,0 +1,13 @@
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\obj\Debug\netcoreapp3.1\Task9.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\obj\Debug\netcoreapp3.1\Task9.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\obj\Debug\netcoreapp3.1\Task9.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\obj\Debug\netcoreapp3.1\Task9.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\bin\Debug\netcoreapp3.1\Task9.exe
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\bin\Debug\netcoreapp3.1\Task9.deps.json
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\bin\Debug\netcoreapp3.1\Task9.runtimeconfig.json
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\bin\Debug\netcoreapp3.1\Task9.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\bin\Debug\netcoreapp3.1\Task9.dll
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\bin\Debug\netcoreapp3.1\Task9.pdb
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\obj\Debug\netcoreapp3.1\Task9.dll
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\obj\Debug\netcoreapp3.1\Task9.pdb
+C:\Users\LENOVO\Desktop\se-cloud-2020-2021\MyWork\Task9\Task9\obj\Debug\netcoreapp3.1\Task9.genruntimeconfig.cache
