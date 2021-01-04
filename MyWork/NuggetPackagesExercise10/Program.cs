@@ -13,7 +13,5 @@ namespace ExerciseE10
             Console.WriteLine(res);
             Console.WriteLine(referencedLib.divide(10, 2));
         }
-
-
     }
 }
