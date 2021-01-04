@@ -70,5 +70,28 @@ namespace ParallelandSequenceWIthTHREAD
 
         }
 
+        public void ParallelExecutionWithTask(int numberofthreads, Action<object> Worker)
+        {
+            Task[] taskArray = new Task[numberofthreads];
+            for (int i = 0; i < taskArray.Length; i++)
+            {
+                Console.WriteLine(i);
+                taskArray[i] = Task.Factory.StartNew(() => Worker(Thread.CurrentThread.Name = i.ToString()));
+                Console.WriteLine(Thread.CurrentThread.Name);
+                //Thread.CurrentThread.Name = i.ToString();
+            }
+            Task.WaitAll(taskArray);
+
+
+            //foreach (var task in taskArray)
+            //{
+            //    var data1 = Thread.CurrentThread.Name;
+            //    if (data1 != null)
+            //        Console.ForegroundColor = ConsoleColor.Green;
+            //        Console.WriteLine("Task #{0} created.", data1);
+            //}
+            
+        }
+
     }
 }

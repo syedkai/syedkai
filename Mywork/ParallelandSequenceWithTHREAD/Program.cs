@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Threading;
-using System.Linq;
 
 namespace ParallelandSequenceWIthTHREAD
 {
@@ -43,7 +42,7 @@ namespace ParallelandSequenceWIthTHREAD
             //Stopwatch sequencesw = new Stopwatch();
             //sequencesw.Start();
 
-            ////th.SequentialExecution(numThreads, Work);
+            //th.SequentialExecution(numThreads, Work);
 
             //sequencesw.Stop();
             //Console.ForegroundColor = ConsoleColor.Red;
@@ -53,7 +52,7 @@ namespace ParallelandSequenceWIthTHREAD
             /* 
             * ---------------------------------------------------------------------------------------------
             * Exercise No. 3
-            * Executes all tasks sequentianally with its own thread
+            * Executes all thread parallely with its own thread
             * ---------------------------------------------------------------------------------------------
             */
             Stopwatch parallelsw = new Stopwatch();
@@ -64,20 +63,37 @@ namespace ParallelandSequenceWIthTHREAD
             parallelsw.Stop();
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("After Exercise 3 finish {0} ms", parallelsw.ElapsedMilliseconds);
-           
+
+            /* 
+            * ---------------------------------------------------------------------------------------------
+            * Exercise No. 3
+            * Executes all tasks parallely with its own thread
+            * ---------------------------------------------------------------------------------------------
+            */
+            //Stopwatch parallelwithtasksw = new Stopwatch();
+            //parallelwithtasksw.Start();
+
+            //th.ParallelExecutionWithTask(numThreads, Work);
+
+            //parallelwithtasksw.Stop();
+
+            //Console.ForegroundColor = ConsoleColor.Red;
+            //Console.WriteLine("After Exercise 3 finish {0} ms", parallelwithtasksw.ElapsedMilliseconds);
+
             Console.ReadLine();
+
+
+
         }
 
         private static void Work(object name)
         {
 
-            Console.WriteLine($"Started thread: {Thread.CurrentThread.Name} - {Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine($"Started thread: {Thread.CurrentThread.Name}");
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(name + "count - {0}",i);
+                Console.WriteLine((string)name + "count - {0}",i);
             }
-
-            Console.ForegroundColor = ConsoleColor.Blue;
 
             Console.WriteLine("Stopped thread: {0}", Thread.CurrentThread.Name);
 
