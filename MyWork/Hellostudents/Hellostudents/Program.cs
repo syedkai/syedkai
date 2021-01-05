@@ -17,7 +17,8 @@ namespace Hellostudents
                 Console.WriteLine($"Hello students from Windows! Iteration :{i} generate the result ={result}");
                 Thread.Sleep(500);
             }
-            Console.WriteLine("Press any key do exit ...");
+            Console.WriteLine("Press any key do exit from ...");
+
             Console.ReadLine();
                }
 
