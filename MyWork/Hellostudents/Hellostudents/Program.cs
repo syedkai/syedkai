@@ -8,10 +8,11 @@ namespace Hellostudents
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            int n = 100;
 
             MyAlgorithm alg = new MyAlgorithm();
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < n; i++)
             {
                 double result = alg.Calculate(i);
                 Console.WriteLine($"Hello students from Windows! Iteration :{i} generate the result ={result}");
