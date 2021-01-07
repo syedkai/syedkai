@@ -1,0 +1,16 @@
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\DebuggingProject.exe
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\DebuggingProject.deps.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\DebuggingProject.runtimeconfig.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\DebuggingProject.runtimeconfig.dev.json
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\DebuggingProject.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\ref\DebuggingProject.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\bin\Release\net5.0\DebuggingProject.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.csprojAssemblyReference.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.AssemblyInfoInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.AssemblyInfo.cs
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.csproj.CoreCompileInputs.cache
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\ref\DebuggingProject.dll
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.pdb
+C:\SE Project 2020\Sabeen-Javaid\MyWork\DebuggingProject\DebuggingProject\obj\Release\net5.0\DebuggingProject.genruntimeconfig.cache
