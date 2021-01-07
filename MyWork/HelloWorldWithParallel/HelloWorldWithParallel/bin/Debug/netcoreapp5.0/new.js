@@ -1,0 +1,1 @@
+netcoreapp5.0
