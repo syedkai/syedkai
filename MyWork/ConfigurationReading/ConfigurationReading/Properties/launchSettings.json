@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConfigurationReading": {
+      "commandName": "Project",
+      "commandLineArgs": "--commandName get"
+    }
+  }
+}
