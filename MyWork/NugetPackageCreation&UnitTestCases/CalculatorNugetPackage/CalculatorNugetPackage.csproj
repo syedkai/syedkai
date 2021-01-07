@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Snigdha</Authors>
+    <Company>FrankfurtMSIT</Company>
+    <Product>Calculator</Product>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+</Project>
