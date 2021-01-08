@@ -14,7 +14,7 @@ namespace MyApplication
 
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine($"counter {n}.");
+                Console.WriteLine($"counter {i}.");
 
                 await Task.Delay(500);
                
