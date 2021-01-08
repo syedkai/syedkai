@@ -1,5 +1,5 @@
 ﻿using HelloWorldWithClass.ClassRefLib;
-
+using System;
 
 namespace HelloWorldWithClass
 {
@@ -9,6 +9,7 @@ namespace HelloWorldWithClass
         {
             DisplayClass obj = new DisplayClass();
             obj.show();
+            Console.ReadKey();
 
 
         }
