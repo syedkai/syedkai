@@ -29,6 +29,7 @@ namespace DebuggingProject
 
             var result= MyAlgorithm.Add(2, 4.2);
             Console.WriteLine(result);
+            Console.ReadKey();
             
 
 
