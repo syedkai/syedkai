@@ -25,7 +25,7 @@ namespace ReadConfiguration
             //var fontSize = configuration["fontSize"];
 
             //following are coming from appsettings.json
-            var Color = configuration["Color"];
+            var Color = configuration["Color1"];
             var fontSize = configuration["fontSize"];
 
 
@@ -44,7 +44,7 @@ namespace ReadConfiguration
             Console.WriteLine($"Your Course name is : {Course}");
             
 
-            Console.WriteLine($"My Color is {Color}");
+            Console.WriteLine($"My Color is {Color1}");
             Console.WriteLine($"Font size is {fontSize}");
             
             Console.ReadLine();
