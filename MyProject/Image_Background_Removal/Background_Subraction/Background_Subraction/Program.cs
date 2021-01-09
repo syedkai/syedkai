@@ -79,9 +79,6 @@ namespace Background_Subraction
             }
 
 
-
-
-
            
             return result;
         }

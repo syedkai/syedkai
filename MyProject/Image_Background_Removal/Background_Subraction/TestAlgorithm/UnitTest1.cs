@@ -1,4 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using LearningFoundation;
+using Background_Subraction;
+
 
 namespace TestAlgorithm
 {

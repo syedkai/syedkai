@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Input\" />
-    <Folder Include="Output\" />
+    <Folder Include="Input_Images\" />
+    <Folder Include="Output_Images\" />
   </ItemGroup>
 
 </Project>
