@@ -10,7 +10,7 @@ namespace Interface
             
             Console.WriteLine("Hello To Interface Example!");
 
-            Double[] data = new double[] { 2, 9, 1, 50, 10, 3, 7, 8, 4 };
+            Double[] data = new double[] { 2, 9, 1, 50, 10, 3, 7, 8, 4,8 };
             Array.Sort(data);
             foreach (int i in data)
             {
