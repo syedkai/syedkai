@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReadingConfigurationAndFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "--color blue --fontSize 10 --state sleeping"
+    }
+  }
+}
