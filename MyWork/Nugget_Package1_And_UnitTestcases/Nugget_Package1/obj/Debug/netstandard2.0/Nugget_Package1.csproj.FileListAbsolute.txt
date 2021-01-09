@@ -1,0 +1,9 @@
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\bin\Debug\netstandard2.0\Nugget_Package1.deps.json
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\bin\Debug\netstandard2.0\Nugget_Package1.dll
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\bin\Debug\netstandard2.0\Nugget_Package1.pdb
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\obj\Debug\netstandard2.0\Nugget_Package1.csprojAssemblyReference.cache
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\obj\Debug\netstandard2.0\Nugget_Package1.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\obj\Debug\netstandard2.0\Nugget_Package1.AssemblyInfo.cs
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\obj\Debug\netstandard2.0\Nugget_Package1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\obj\Debug\netstandard2.0\Nugget_Package1.dll
+C:\Users\user\source\repos\se-cloud-2020-2021\MyWork\Nugget_Package1\Nugget_Package1\obj\Debug\netstandard2.0\Nugget_Package1.pdb

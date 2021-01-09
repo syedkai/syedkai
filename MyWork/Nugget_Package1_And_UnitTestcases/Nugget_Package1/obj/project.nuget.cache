@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "k/b9kdQKZGKkT3cI+U03rN3WXO2ZRsIq0MjhxWIlQ3x9OpgXPv1HwamihXxWYk2qrhuyB6+7CA49n04D7VpbBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\se-cloud-2020-2021\\MyWork\\Nugget_Package1\\Nugget_Package1\\Nugget_Package1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
