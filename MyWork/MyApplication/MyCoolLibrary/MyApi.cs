@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApplication2
+namespace MyCoolLibrary
 {
     /*private / internal public*/ 
-    public class MyClass
+    public class MyApi
     {
-        public static double GetLength(string input)       /*String Method of class*/
+        public static double GetLength(string input)       /*Static Method of class*/
         {
             return input.Length;                  /*length of a string*/
         }
         public double Divide(int a, int b)  /*Instance Method*/
         {
-            return a / b;
+            return (double)a / (double)b;
         }
     }
 }

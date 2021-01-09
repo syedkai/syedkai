@@ -1,4 +1,4 @@
-﻿using MyApplication2;
+﻿using MyCoolLibrary;
 using System;
 using System.Threading.Tasks;
 namespace MyApplication
@@ -11,26 +11,77 @@ namespace MyApplication
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello folks! Deep dive in .NET 5.0");
+            Console.WriteLine("If you want to exit, pass exit command in the arguments. Thank You :)");
 
             //Run  sample
             //await LoopSample();
 
-            RunClassSample();
+            //await RunClassStaticSampleAsync();                          //show how to run static method in the class.
+
+            await RunClassInstanceSampleAsync();
 
             Console.WriteLine("Press any key to exit..");
-            Console.ReadKey();
+            Console.ReadLine();
             
         }
-
-        private static void RunClassSample()
+        private static Task RunClassStaticSampleAsync()
         {
             Console.WriteLine("Please enter some text and I'll calcute the length of the text.");
 
             var txt = Console.ReadLine();
 
-            var len = MyClass.GetLength(txt);
+            var len = MyApi.GetLength(txt);                                                   //using static method
 
             Console.WriteLine($"The Length of the Text is: {len}");
+
+            return Task.CompletedTask;
+        }
+        private static Task RunClassInstanceSampleAsync()
+        {
+           
+            while (true)
+            {
+               
+
+                Console.WriteLine("Please enter arg 1:");
+                var arg1 = Console.ReadLine();
+
+                if (arg1 == "exit")
+                {
+                    break;
+                }
+
+                Console.WriteLine("Please enter arg 2:");
+                var arg2 = Console.ReadLine();
+
+                if (arg2 == "exit")
+                {
+                    break;
+                }
+
+                try
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;                                     //for highlighting the result
+
+                    MyApi apiInstance = new MyApi();                                                   //using instance method
+
+                    double result = apiInstance.Divide(int.Parse(arg1), int.Parse(arg2));
+
+                    Console.WriteLine($"Result of {arg1}/{arg2} = {result}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Sorry!! You have given incorrect inputs. Try Again!! :)");
+
+                }
+
+                finally
+                {
+                    Console.ResetColor();
+                }
+            }
+
+            return Task.CompletedTask;
         }
 
 
