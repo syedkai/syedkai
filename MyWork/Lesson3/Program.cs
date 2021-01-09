@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace HelloWorldWithCli
+namespace Lesson3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World With CliS!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
