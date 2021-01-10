@@ -21,6 +21,9 @@ namespace InterfaceEx
         /// </summary>
         /// <param name="data">Train data</param>
         void Train(double[] data);
+
+
+
     }
 
 }

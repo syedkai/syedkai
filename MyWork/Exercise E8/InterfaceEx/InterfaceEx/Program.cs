@@ -6,7 +6,7 @@ namespace InterfaceEx
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Universe!");
+            Console.WriteLine("Hello my world!");
 
             //Example1();
 
@@ -19,10 +19,12 @@ namespace InterfaceEx
             double[] data = new double[] { 2.3, 23.4, 33.3, 22.11, 45.33 };
 
             INewzMLAlgorithm alg = new SumAlgorithm();
-            
+
             Example2(alg, data);
 
             Example2(new AverageAlgorithm(), data);
+
+            Example2(new MedianAlgorithm(), data);
 
             // Demonstrates casting
 
@@ -36,6 +38,10 @@ namespace InterfaceEx
                 AverageAlgorithm avgAlg = (AverageAlgorithm)alg;
             }
 
+            if (alg is MedianAlgorithm)
+            {
+                MedianAlgorithm medAlg = (MedianAlgorithm)alg;
+            }
             Console.WriteLine("Press any key to exit.");
 
             Console.ReadLine();
@@ -50,20 +56,21 @@ namespace InterfaceEx
             double[] data = new double[] { 2.3, 23.4, 33.3, 22.11, 45.33 };
 
             SumAlgorithm sum = new SumAlgorithm();
-            
             sum.Train(data);
-
             var sumRes = sum.GetResult();
-
             Console.WriteLine(sumRes);
 
+
             AverageAlgorithm avg = new AverageAlgorithm();
-
             avg.Train(data);
-
             var averageRes = avg.GetResult();
-
             Console.WriteLine(averageRes);
+
+
+            MedianAlgorithm med = new MedianAlgorithm();
+            med.Train(data);
+            var medianRes = med.GetResult();
+            Console.WriteLine(medianRes);
         }
 
 
@@ -78,5 +85,7 @@ namespace InterfaceEx
 
             Console.WriteLine(result);
         }
+
+
     }
 }
