@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloWorldWithClass": {
+      "commandName": "Project",
+      "commandLineArgs": "--aaa Valuea --BBB Valueb --ccc 123"
+    }
+  }
+}

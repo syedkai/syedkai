@@ -1,5 +1,5 @@
-﻿using MyAnotherCoolLibrary;
-using MyCoolLibrary;
+﻿
+using MyfirstLibrary;
 using System;
 using System.Threading.Tasks;
 
@@ -9,29 +9,71 @@ namespace HelloWorldWithClass
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello in this lesson we will deep dive in .NET 5.0");
+            Console.WriteLine("Hello here we will deep dive in .NET 5.0");
 
             //Run Loopsample
             //await Looping();
 
-            await RunClassInstanceSampleAsync();
+            //Show how to run the static method in the class.
+            //await ExecuteClassStaticsampleAsync();
+
+            await ExecuteClasssInstanceampleAsync();
 
             Console.WriteLine("Press any key to exit");
             Console.ReadLine();
 
         }
 
-        private static Task RunClassStaticSampleAsync()
+        private static Task ExecuteClassStaticsampleAsync()
         {
-            
-
             Console.WriteLine("Please enter some text and will be calculated the length");
 
             var txt = Console.ReadLine();
 
-            var len = Newclass.Calculatelength(txt);
+            var len = Newapi.Calculatelength(txt);
 
             Console.WriteLine($"Lengthe of the text is: {len}");
+            return Task.CompletedTask;
+        }
+
+        private static Task ExecuteClasssInstanceampleAsync()
+        {
+
+            while (true)
+            {
+                Console.WriteLine("Please enter Argum 1: ");
+                var argm1 = Console.ReadLine();
+
+                if (argm1 == "exit")
+                    break;
+
+                Console.WriteLine("Please enter Argum 2: ");
+                var argm2 = Console.ReadLine();
+
+                if (argm2 == "exit")
+                    break;
+
+                try
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+
+                    Newapi apiInstance = new Newapi();
+
+                    double res = apiInstance.Divide(int.Parse(argm1), int.Parse(argm2));
+                    Console.WriteLine($"Result of {argm1}/{argm2} = {res}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Your input is incorrect. Please try again :)");
+                }
+
+                finally
+                {
+                    Console.ResetColor();
+                }
+               
+            }
+
 
             return Task.CompletedTask;
         }
@@ -40,50 +82,9 @@ namespace HelloWorldWithClass
         /// Looping sample with task delay.
         /// </summary>
         /// <returns>N.a.</returns>
-        private static Task RunClassInstanceSampleAsync()
+        //<private static Task RunClassInstanceSampleAsync()
 
-        {
-
-            while (true)
-            {
-                Console.WriteLine("Please, please arg 1:");
-                var arg1 = Console.ReadLine();
-
-                if (arg1 == "exit")
-                    break;
-
-                Console.WriteLine("Please, please arg 2:");
-                var arg2 = Console.ReadLine();
-
-                if (arg2 == "exit")
-                    break;
-
-                try
-                {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-
-                    MyApi apiInstance = new MyApi();
-
-                    double res = apiInstance.Divide(int.Parse(arg1), int.Parse(arg2));
-
-                    Console.WriteLine($"Result of {arg1}/{arg2} = {res}");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Your input is not the best. Pls. try again :)");
-                }
-                finally
-                {
-                    Console.ResetColor();
-                }
-            }
-
-
-
-            return Task.CompletedTask;
-        }
-
-        private static async Task LoopSample()
+        private static async Task Looping()
         {
             int n = 100;
 
@@ -105,7 +106,7 @@ namespace HelloWorldWithClass
             for (int i = 0; i < n; i++)
             {
 
-                Console.WriteLine($"Counter{n}.");
+                Console.WriteLine($"Counter{i}.");
 
                 Task.Delay(10000).ContinueWith((t) =>
                 {
