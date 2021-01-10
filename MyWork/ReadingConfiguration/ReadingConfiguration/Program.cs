@@ -66,7 +66,7 @@ namespace ReadingConfiguration
             Console.WriteLine("Reads from all settings: " + allSettings.Department);
 
 
-            Console.WriteLine();
+            Console.ReadLine();
 
 
         }
