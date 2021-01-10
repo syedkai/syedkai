@@ -30,6 +30,12 @@ namespace Exercise7
            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
            .AddCommandLine(args)
            .AddEnvironmentVariables();
+            if (args != null)
+            {
+                builder.AddCommandLine(args);
+            }
+
+
 
 
             IConfigurationRoot configuration = builder.Build();
