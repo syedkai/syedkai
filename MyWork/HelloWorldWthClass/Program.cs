@@ -1,5 +1,5 @@
 ﻿
-using MyLibrary;
+using ClassLibraryN;
 using System;
 using System.Threading.Tasks;
 
@@ -25,7 +25,7 @@ namespace Hello_world_with_class
         {
             Console.WriteLine("Please, enter some text and I will calculate the Length");
             var txt = Console.ReadLine();
-            var len = MyClass.GetLength(txt);
+            var len = MyApi.GetLength(txt);
             Console.WriteLine($"The length of the text is: {len}");
 
              
@@ -48,7 +48,7 @@ namespace Hello_world_with_class
                     break;
                 try
                 {
-                    MyClass classInstance = new MyClass();
+                    MyApi classInstance = new MyApi();
                     double res = classInstance.Divide(int.Parse(arg1), int.Parse(arg2));
 
                     Console.ForegroundColor = ConsoleColor.Yellow;
