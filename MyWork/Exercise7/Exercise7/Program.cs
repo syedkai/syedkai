@@ -19,7 +19,7 @@ namespace Exercise7
             //var res1 = float.Parse("7,1", CultureInfo.InvariantCulture);
             //var res2 = float.Parse("7.1", CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Exercise 7!");
+            Console.WriteLine("Exercise 7!!");
 
             var builder = new ConfigurationBuilder()
 
