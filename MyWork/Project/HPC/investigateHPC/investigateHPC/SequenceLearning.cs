@@ -26,7 +26,8 @@ namespace investigateHPC
             int inputBits = 100;
             int numColumns = 2048;
 
-            HtmConfig cfg = new HtmConfig()
+            //HtmConfig cfg = new HtmConfig()
+            HtmConfig cfg = new HtmConfig(new int[] { inputBits }, new int[] { numColumns })
             {
                 Random = new ThreadSafeRandom(42),
                 InputDimensions = new int[] { inputBits },
