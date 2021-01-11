@@ -1,1 +1,0 @@
-Upload to this folder your signed version of the media release form
