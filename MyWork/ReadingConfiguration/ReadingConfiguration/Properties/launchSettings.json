@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReadingConfiguration": {
+      "commandName": "Project",
+      "commandLineArgs": "--name HPPROBOOK --color Silver --windows 10 --size 15.6inch"
+    }
+  }
+}
