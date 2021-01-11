@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReadingConfiguration": {
+      "commandName": "Project",
+      "commandLineArgs": "--name laptop --color white--windows 10"
+    }
+  }
+}
