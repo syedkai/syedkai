@@ -1,8 +1,8 @@
 # Project Title
 ML20/21-5.2.	Implement HTM FeedForward network
 
-##Team Name
-Mini Coloummns
+## Team Name
+Mini Coloumns
 
 ## Getting Started
 
