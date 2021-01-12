@@ -49,11 +49,11 @@ example: will be updated soon
 
 ## Authors
 
-* **Md. Mukit Khan** - *Initial work* - [PurpleBooth](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/Md.-Mukit-Khan)
-* **Chimerie Arun** - *Initial work* - [PurpleBooth](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/chiemerie-arum)
-* **Md. Rabiul Islam** - *Initial work* - [PurpleBooth](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/Md.-Rabiul-Islam)
-* **Md. Nabuat AI Jahid** - *Initial work* - [PurpleBooth](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/MdNabuatAlJahid)
-* **SM Mehedi** - *Initial work* - [PurpleBooth](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/smmehedi/)
+* **Md. Mukit Khan** - *Initial work* - [GitBrunch](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/Md.-Mukit-Khan)
+* **Chimerie Arun** - *Initial work* - [GitBrunch](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/chiemerie-arum)
+* **Md. Rabiul Islam** - *Initial work* - [GitBrunch](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/Md.-Rabiul-Islam)
+* **Md. Nabuat AI Jahid** - *Initial work* - [GitBrunch](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/MdNabuatAlJahid)
+* **SM Mehedi** - *Initial work* - [GitBrunch](https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2020-2021/tree/smmehedi/)
 
 
 
