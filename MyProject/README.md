@@ -43,7 +43,7 @@ example: will be updated soon
 ## Built With
 
 * [DotnetCore](https://dotnet.microsoft.com/download/dotnet/5.0) - The framework used
-* [NeoCortexAoi](https://www.nuget.org/packages/NeoCortexApi/) - Dependency Management
+* [NeoCortexApi](https://www.nuget.org/packages/NeoCortexApi/) - Dependency Management
 
 
 
