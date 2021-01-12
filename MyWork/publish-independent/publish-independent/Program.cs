@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace publish_independent
 {
@@ -6,7 +7,15 @@ namespace publish_independent
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is a stand alone build/deployment.");
+            Console.WriteLine("Hello This is a stand alone build/deployment.");
+            int length=20;
+            for (int i = 0; i < length; i++)
+            {
+
+                Console.WriteLine("Updating numbers :"+ i);
+                Thread.Sleep(500);
+            }
+
             Console.ReadLine(); 
         }
     }
