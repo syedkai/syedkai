@@ -1,4 +1,4 @@
-﻿using MyAnotherCoolLibrary;
+﻿
 using MyCoolLibrary;
 using System;
 using System.Threading.Tasks;
@@ -14,21 +14,22 @@ namespace Lesson3
         /// Standard simplified version of Task.Delay.
         /// </summary>
         /// <param name="args"></param>
-        static async Task Main(string[] args)
+       /* static async Task Main(string[] args)
         {
             Console.WriteLine("Hello lesson3! Deep dive in .NET 5.0");
 
             // Run sample.
-            //await LoopSample();
+            // await LoopSample();
 
             // Show how to tun the static method in the class.
             //await RunClassStaticSampleAsync();
 
-            await RunClassInstanceSampleAsync();
+            // await RunClassInstanceSampleAsync();
 
+            Main2(string[] args);
             Console.WriteLine("Press ay key to exit...");
             Console.ReadLine();
-        }
+        } */
 
         private static Task RunClassStaticSampleAsync()
         {
@@ -109,11 +110,11 @@ namespace Lesson3
         /// More complex version with the Task.Delay.
         /// </summary>
         /// <param name="args"></param>
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello lesson3! Deep dive in .NET 5.0");
 
-            int n = 1;
+            int n = 10;
 
             for (int i = 0; i < n; i++)
             {
@@ -126,7 +127,7 @@ namespace Lesson3
                     ;
             }
 
-            Console.WriteLine("Press ay key to exit...");
+            Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
         }
     }
