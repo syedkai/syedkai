@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>ReadConfi_Appsetting.json</RootNamespace>
+    <StartupObject>ReadConfig_Appsetting.json.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
