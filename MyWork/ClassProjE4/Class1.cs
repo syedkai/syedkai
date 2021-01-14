@@ -10,7 +10,7 @@ namespace ClassProjE4
         string city;
         string state;
         string country;
-
+     
         public Class1(string a, string b, string c)
         {
             this.city = a;
