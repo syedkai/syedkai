@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>LocalNugetPacakage</id>
+    <version>1.0.0</version>
+    <title>FindMax</title>
+    <authors>Mukit</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>will find maxium value</description>
+    <releaseNotes>first release</releaseNotes>
+    <copyright>TestLab</copyright>
+    <tags>local Tag1 Tag2</tags>
+  </metadata>
+</package>

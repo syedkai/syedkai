@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculationLib", "SimpleCalculationLib.csproj", "{565F38F2-5028-4500-B71C-6C99E3E995EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{565F38F2-5028-4500-B71C-6C99E3E995EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565F38F2-5028-4500-B71C-6C99E3E995EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565F38F2-5028-4500-B71C-6C99E3E995EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565F38F2-5028-4500-B71C-6C99E3E995EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E511D5C-77F3-4466-B176-B52E2882653A}
+	EndGlobalSection
+EndGlobal
